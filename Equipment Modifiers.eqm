@@ -1,0 +1,220 @@
+{
+	"type": "eqp_modifier_list",
+	"version": 1,
+	"id": "945608e7-f7f1-4355-a8cf-02d292e7ab82",
+	"rows": [
+		{
+			"type": "eqp_modifier_container",
+			"version": 1,
+			"id": "6e53391c-9d9d-4419-87c9-146e244da320",
+			"disabled": true,
+			"name": "Armor Quality",
+			"open": true,
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "80b6a86d-d1f5-4d03-9ad1-236ef434e288",
+					"based_on_id": "d1855c1f-8423-476f-9383-16b869b05cff",
+					"based_on_hash": "0bk6XwD+0l3c2LZ/LwQ1moc4vioDH3d5Me/ELk27imA",
+					"name": "Cheap",
+					"reference": "LT109",
+					"cost_type": "to_base_cost",
+					"cost": "-0.6 CF",
+					"tech_level": "0",
+					"notes": "Armor, -1 DR"
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "d447b801-cb28-4539-950e-76427bda1528",
+					"name": "Reinforced",
+					"reference": "LT105",
+					"cost_type": "to_base_cost",
+					"cost": "+0.25 CF",
+					"weight_type": "to_original_weight",
+					"weight": "+25%",
+					"tech_level": "0",
+					"notes": "+1 DR vs cutting"
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "b926cc27-d880-4193-86fb-f4deb1c68d96",
+					"name": "Leather of Quality",
+					"reference": "LT105",
+					"cost_type": "to_base_cost",
+					"cost": "+4 CF",
+					"tech_level": "0",
+					"notes": "+1 DR"
+				}
+			]
+		},
+		{
+			"type": "eqp_modifier_container",
+			"version": 1,
+			"id": "04f61624-9ebc-4ce9-ac6f-b381e359f3ac",
+			"disabled": true,
+			"name": "Weapon Quality",
+			"open": true,
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "cd8f4282-ec23-4ae7-aad8-99104356148c",
+					"based_on_id": "a4b9d87b-7db8-4a8a-a32d-20e1cefe246f",
+					"based_on_hash": "LILJFsC/bYKYPh5y6qDrGsVsUDSQsU72CBzNs+1cpDg",
+					"name": "Balanced",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"cost": "+4 CF",
+					"tech_level": "0",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"selection_type": "this_weapon"
+						}
+					]
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "3426ddeb-8f13-4fc4-ae56-9b64322e69e7",
+					"based_on_id": "e52afaba-e9ea-4f51-898c-c29328759d59",
+					"based_on_hash": "FVJ3+hPesoCiKy8XiheM9yHQ6ZyXyJesCdALt7Msifo",
+					"name": "Cheap",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"cost": "-0.6 CF",
+					"tech_level": "0"
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "cf441f35-70c8-4f1e-b1e0-d1127df38221",
+					"based_on_id": "f5adb800-0c1f-4b44-bf64-69efdbcd4e77",
+					"based_on_hash": "SV8pp0vYAUHvpt2bwf8dV07OoVOO/9Xud9WptM0y6n8",
+					"name": "Fine",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"cost": "+2 CF",
+					"tech_level": "0",
+					"notes": "Projectiles, and crushing- or impaling-only melee or thrown weapons."
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "5122d343-16c2-4f32-a233-2c3e34ba82f2",
+					"based_on_id": "70eedc9d-a421-4631-94a1-306fe43bf691",
+					"based_on_hash": "ta4fK29rT/TW64EivVgqpyWGw7kKmk1pls4Bz1n8YFI",
+					"name": "Fine",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"cost": "+3 CF",
+					"tech_level": "0",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"amount": 1,
+							"selection_type": "this_weapon"
+						}
+					],
+					"notes": " knives and missile weapons."
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "2d2b0fa2-79e4-4bc6-88fa-eb64db19e064",
+					"based_on_id": "e7ef0dcf-55c3-49bd-9c3b-9bf5b583e121",
+					"based_on_hash": "CsP/9N7zDfGyjBIFd6bTMjfPgEiSMzlC6Q5GWys5Unk",
+					"name": "Fine",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"cost": "+9 CF",
+					"tech_level": "0",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"amount": 1,
+							"selection_type": "this_weapon"
+						}
+					],
+					"notes": "Other cutting melee or thrown weapons."
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "43a9ffd5-ae7e-4799-b427-a5f75fce1e5b",
+					"based_on_id": "243000ed-6102-4433-b562-b8e9221b4202",
+					"based_on_hash": "6GD2LFXwHv/jbJ+WlrZdNisxHa3J5EcC5tEW4hRcs3A",
+					"name": "Poorly Balanced",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"cost": "-0.6 CF",
+					"tech_level": "0",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "this_weapon"
+						}
+					]
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "133fdd07-f263-4ea1-a239-d3a085fa9f28",
+					"based_on_id": "99992d93-6309-4b1d-a0be-53c3f3fc11d8",
+					"based_on_hash": "f8jv3M03jY2X4DbCGwgAOQuESZyb61DG5y8obQ03xZ8",
+					"name": "Very Fine",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"cost": "+14 CF",
+					"tech_level": "0",
+					"notes": "Crushing-only melee and thrown weapons:."
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "bf953868-d9bf-4826-ace0-fd0dea2ef1c4",
+					"based_on_id": "4955f2cd-8c80-4b40-a1e9-039379c5116d",
+					"based_on_hash": "vPSyNFFVLy8+NqlHUF/lHEuEHHHpMR/cS6i3tqj05Kc",
+					"name": "Very Fine",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"cost": "+19 CF",
+					"tech_level": "0",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"amount": 2,
+							"selection_type": "this_weapon"
+						}
+					],
+					"notes": "knives"
+				},
+				{
+					"type": "eqp_modifier",
+					"version": 1,
+					"id": "b7e83338-7e76-4e54-8145-dfada34c037d",
+					"based_on_id": "c3d9b08f-206c-46a6-a0ba-6d205461dad9",
+					"based_on_hash": "AgKgkJSBwKG8CKJtSMlL9Mb35uhHryOGsxkgHEc2Hhg",
+					"name": "Very Fine",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"cost": "+49 CF",
+					"tech_level": "0",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"amount": 2,
+							"selection_type": "this_weapon"
+						}
+					],
+					"notes": "Other melee or thrown weapons, and projectiles."
+				}
+			]
+		}
+	]
+}

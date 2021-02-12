@@ -1,0 +1,6012 @@
+{
+	"type": "equipment_list",
+	"version": 1,
+	"id": "d8f9b0ba-b08a-4a0b-a73e-4948c849a0a5",
+	"rows": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0771781d-f7cb-459c-aa88-b7d4dc735fab",
+			"quantity": 1,
+			"description": "Axe",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "4 lb",
+			"reference": "LT54",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+2",
+						"armor_divisor": 0.5
+					},
+					"strength": "11",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Unbalanced"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+3",
+						"armor_divisor": 0.5
+					},
+					"strength": "10†",
+					"usage": "Swing - two handed",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Unbalanced"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f1c8ba58-8655-48b5-b8df-2ee2fa7861ff",
+			"quantity": 1,
+			"description": "Bandages",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "2 lb",
+			"reference": "LT146",
+			"uses": 6,
+			"max_uses": 6,
+			"notes": "6 dressings each set",
+			"categories": [
+				"Medical Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e758eddd-7752-40ab-987c-22ec86b17d46",
+			"quantity": 1,
+			"description": "Barbed Arrow",
+			"tech_level": "0",
+			"value": "2",
+			"weight": "0.1 lb",
+			"reference": "LT73",
+			"notes": "Inflicts half the injury it delivered when yanked out",
+			"categories": [
+				"Ammunition"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d84c3a5d-402a-4bc5-8d01-f73faecc4463",
+			"quantity": 1,
+			"description": "Baton",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "1 lb",
+			"reference": "LT54",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c65bfd35-96e3-44b5-949b-da0f4f9f4a93",
+			"quantity": 1,
+			"description": "Belladonna",
+			"tech_level": "0",
+			"legality_class": "1",
+			"value": "8",
+			"reference": "LT128",
+			"categories": [
+				"Poison"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b517c227-96a0-464b-aeea-cff9d29ad4d1",
+			"quantity": 1,
+			"description": "Blowpipe",
+			"tech_level": "0",
+			"value": "30",
+			"weight": "1 lb",
+			"reference": "LT72",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d-3"
+					},
+					"strength": "2",
+					"usage": "Launch Dart",
+					"accuracy": "1",
+					"range": "x4",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -6
+						},
+						{
+							"type": "Skill",
+							"name": "Blowpipe"
+						}
+					]
+				}
+			],
+			"notes": "Follow-up drug or poison attack if damage penetrates DR. Requires two hands to ready, but only one hand to attack",
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "4d36938c-3abd-488d-b9e0-3ec9048c5733",
+			"quantity": 1,
+			"description": "Blowpipe Dart",
+			"tech_level": "0",
+			"value": "0.1",
+			"weight": "0.05 lb",
+			"reference": "LT76",
+			"categories": [
+				"Ammunition"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "14e5e2a3-305e-4cc1-89e6-58a229e50ff7",
+			"quantity": 1,
+			"description": "Blunt Arrow",
+			"tech_level": "0",
+			"value": "1",
+			"weight": "0.1 lb",
+			"reference": "LT73",
+			"notes": "Converts damage to crushing",
+			"categories": [
+				"Ammunition"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "293886e2-9bb3-4ab9-9379-763d0df8d270",
+			"quantity": 1,
+			"description": "Bolas",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "2 lb",
+			"reference": "LT55,LT72",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+1"
+					},
+					"strength": "7",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "-2U",
+					"block": "-1",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -6
+						},
+						{
+							"type": "Skill",
+							"name": "Flail"
+						},
+						{
+							"type": "Skill",
+							"name": "Axe/Mace",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Flail",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "7",
+					"usage": "Thrown",
+					"accuracy": "0",
+					"range": "x3",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Bolas"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ee6d1d1b-37fb-411b-9794-0fc7c0fdd126",
+			"quantity": 1,
+			"description": "Bone Arm Armor",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "12.5 lb",
+			"reference": "LTIA7",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "arms"
+				}
+			],
+			"notes": "Semi-Ablative, Reaction Pen.-1",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e1be14e1-dde0-4b0b-8963-bb9d904e098a",
+			"quantity": 1,
+			"description": "Bone Helm",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "5 lb",
+			"reference": "LTIA13",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "skull"
+				}
+			],
+			"notes": "Semi-Ablative; Reaction Pen.-1",
+			"categories": [
+				"Helm"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a6eba589-0397-4de3-90c2-db170789dc11",
+			"quantity": 1,
+			"description": "Bone Leg Armor",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "25 lb",
+			"reference": "LTIA10",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "legs"
+				}
+			],
+			"notes": "Semi-Ablative, Reaction Pen.-1",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "4cf84f9f-d4a4-4711-9400-39b37a5e4aae",
+			"quantity": 1,
+			"description": "Bone Torso Armor",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "25 lb",
+			"reference": "LTIA4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "groin"
+				}
+			],
+			"notes": "Semi-Ablative; Reaction Pen.-2",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "498fbcda-7d7b-433f-b57c-e4787a82b3df",
+			"quantity": 1,
+			"description": "Boomerang",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "1 lb",
+			"reference": "LT72",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "2",
+					"range": "x6/x10",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Stick"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d2d1a939-aada-43e6-be91-2c9e1e139022",
+			"quantity": 1,
+			"description": "Cantharides",
+			"tech_level": "0",
+			"legality_class": "1",
+			"value": "14",
+			"reference": "LT129",
+			"categories": [
+				"Poison"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "918db005-69c9-4f87-9a87-f18b92987f83",
+			"description": "Carry Frame",
+			"tech_level": "0",
+			"value": "60",
+			"weight": "7 lb",
+			"reference": "LT36",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"notes": "Loading time per item 2d+10 seconds Unload 1d+10 seconds",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "28a3f429-e29e-4352-9b2d-e7a30c9822f9",
+			"description": "Cloth Bag, 1l",
+			"tech_level": "0",
+			"value": "0.75",
+			"weight": "0.1 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1.81 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "f90035dd-6938-4aed-83d2-6acebf62628e",
+			"description": "Cloth Bag, 4l",
+			"tech_level": "0",
+			"value": "1.75",
+			"weight": "0.25 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "7.15 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "74587119-942f-42eb-a082-8c359a44bd31",
+			"description": "Cloth Bag, 8l",
+			"tech_level": "0",
+			"value": "2.75",
+			"weight": "0.5 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "14.85 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "904ac8dd-27c7-422b-9932-ecdb9bccc51f",
+			"description": "Cloth Bag, 24l",
+			"tech_level": "0",
+			"value": "6",
+			"weight": "1 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "44 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "8f586cb5-2e43-41fe-ac3b-f7ee8f136254",
+			"description": "Cloth Bag, 62.5ml",
+			"tech_level": "0",
+			"value": "0.1",
+			"weight": "0.01 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "0.11 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "cefa7da9-40f6-4cfc-9dd6-0ad1a86f6879",
+			"description": "Cloth Bag, 80l",
+			"tech_level": "0",
+			"value": "13",
+			"weight": "2 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "148.5 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "2a2bc4b3-e52f-4de9-a65c-5a668de5fe53",
+			"description": "Cloth Bag, 160l",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "3 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "291.5 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "b1e52873-f901-4d67-a4e6-59dc8df7967d",
+			"description": "Cloth Bag, 250ml",
+			"tech_level": "0",
+			"value": "0.25",
+			"weight": "0.01 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "0.44 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "61f76a0d-b704-453c-ae46-4fd64ef71ee8",
+			"description": "Cloth Bag, 320l",
+			"tech_level": "0",
+			"value": "32",
+			"weight": "5 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "605 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "e90d3017-7de5-450b-b249-c90de6094374",
+			"description": "Cloth Bag, 480l",
+			"tech_level": "0",
+			"value": "42",
+			"weight": "6 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "880 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "af5486cc-d595-4523-9112-0d60ffd69cd2",
+			"quantity": 1,
+			"description": "Cloth, Padded Arm Armor",
+			"tech_level": "0",
+			"value": "25",
+			"weight": "3 lb",
+			"reference": "LTIA7",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "arms"
+				}
+			],
+			"notes": "Flexible",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "761a147e-40ac-4d45-9b96-468cc3161ed7",
+			"quantity": 1,
+			"description": "Cloth, Padded Leg Armor",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "6 lb",
+			"reference": "LTIA10",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "legs"
+				}
+			],
+			"notes": "Flexible",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b4b4d307-8c24-45af-9c20-b3de4b0004b7",
+			"quantity": 1,
+			"description": "Cloth, Padded Torso Armor",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "6 lb",
+			"reference": "LTIA4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "groin"
+				}
+			],
+			"notes": "Flexible",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3e7cc008-00d0-48c9-bc4f-01c117d64809",
+			"based_on_id": "e3e7f318-1002-466c-a8c9-71c9b7a2ac6b",
+			"based_on_hash": "bq8JyIpBmCU9VZl36wrq2W+mF1viUwcrF8VDzRVr4Og",
+			"quantity": 1,
+			"description": "Clothing",
+			"tech_level": "0",
+			"value": "120",
+			"weight": "2 lb",
+			"reference": "LT98",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2564eff1-e69e-4fc8-b3b7-2176cbf86904",
+			"quantity": 1,
+			"description": "Clothing, Arctic",
+			"tech_level": "0",
+			"value": "240",
+			"weight": "5 kg",
+			"reference": "DF16:16",
+			"notes": "+5 HT to resist Cold, +1 DR",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "7122760a-cdc8-4522-8888-1e8f47200ae9",
+			"based_on_id": "d92f7049-c431-4f64-915b-f412e48c4059",
+			"based_on_hash": "jmCWRLs2pJoG7yrEnlsWhOk6BFExOgUkMStNrmUispk",
+			"quantity": 1,
+			"description": "Clothing, Summer",
+			"tech_level": "0",
+			"value": "60",
+			"weight": "1 lb",
+			"reference": "LT97",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "743cd413-7b8d-4d9f-8ee4-70d3ac40c670",
+			"quantity": 1,
+			"description": "Clothing, Winter",
+			"tech_level": "0",
+			"value": "180",
+			"weight": "5 lb",
+			"reference": "LT98",
+			"notes": "+1 DR vs cutting, Gloves gives Bad Grip and Ham-Fisted 2.",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6c0ef526-09a6-4428-a873-1ad6ecdfa435",
+			"quantity": 1,
+			"description": "Comanche Shield",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "16 lb",
+			"reference": "LT114",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"usage": "Shield Bash",
+					"reach": "1",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Shield"
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Buckler",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Force Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Guige",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "block"
+				}
+			],
+			"notes": "Fragile (Combustible) (p. B136). DR 4 HP 21 Cover DR 9",
+			"categories": [
+				"Shield"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "de346daa-8718-4d1d-b63c-88c9dfa59920",
+			"description": "Cords and Ropes",
+			"categories": [
+				"Camping and Survival Gear"
+			],
+			"open": false,
+			"children": [
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "668767ee-985f-488f-93cc-9ae901022cfc",
+					"quantity": 1,
+					"description": "Cord/Bowstring (1/4\") (10m)",
+					"tech_level": "0",
+					"value": "1.25",
+					"weight": "0.58 lb",
+					"reference": "LT43",
+					"notes": "Supports 56 kg",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "3be04237-4d12-4be0-b98c-6aa6863e6257",
+					"quantity": 1,
+					"description": "Cord/Bowstring (1/8\") (10 m)",
+					"tech_level": "0",
+					"value": "0.32",
+					"weight": "0.14 lb",
+					"reference": "LT43",
+					"notes": "Supports 15kg",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "0f7892d9-61b5-4102-8c6d-557456fb16eb",
+					"quantity": 1,
+					"description": "Cord/Rope (1\") (10 m)",
+					"tech_level": "0",
+					"value": "20",
+					"weight": "9 lb",
+					"reference": "LT43",
+					"notes": "Supports 900kg",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "576b9be5-eaa4-4803-9b0a-a137f3e689db",
+					"quantity": 1,
+					"description": "Cord/Rope (1/2\") (10 m)",
+					"tech_level": "0",
+					"value": "5",
+					"weight": "2.25 lb",
+					"reference": "LT43",
+					"notes": "Supports 225kg",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "7ca3f2b9-a804-4d06-ba6c-64d69abde098",
+					"quantity": 1,
+					"description": "Cord/Rope (3/4\") (10 m)",
+					"tech_level": "0",
+					"value": "11.25",
+					"weight": "5.06 lb",
+					"reference": "LT43",
+					"notes": "Supports 500 kg",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "2f84a76a-93d8-4741-8319-510ac9ce0d3a",
+					"quantity": 1,
+					"description": "Cord/Rope (3/8\") (10m)",
+					"tech_level": "0",
+					"value": "2.82",
+					"weight": "1.27 lb",
+					"reference": "LT43",
+					"notes": "Supports 125kg",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				}
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d68d13b9-c1a4-4730-bd9b-9815fd151fbe",
+			"quantity": 1,
+			"description": "Curare",
+			"tech_level": "0",
+			"legality_class": "1",
+			"value": "50",
+			"reference": "LT129",
+			"categories": [
+				"Poison"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c39928f7-e78f-4593-97ff-f61845a56ded",
+			"quantity": 1,
+			"description": "Deathcap Mushroom",
+			"tech_level": "0",
+			"legality_class": "0",
+			"value": "25",
+			"reference": "LT129",
+			"categories": [
+				"Poison"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d75c764d-b4dc-45a9-91a0-85a2204c0669",
+			"quantity": 1,
+			"description": "Digging Sticks",
+			"tech_level": "0",
+			"value": "1",
+			"weight": "1.5 lb",
+			"reference": "LT36",
+			"categories": [
+				"Camping and Survival Gear",
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "656cccab-1b14-4712-8f5b-0c0bce63b2ba",
+			"quantity": 1,
+			"description": "Dogsled",
+			"tech_level": "0",
+			"value": "400",
+			"weight": "580 lb",
+			"reference": "LT135",
+			"notes": "Draft animals are dogs for the dogsled",
+			"categories": [
+				"Land Vehicle"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3f8e722a-666b-4efb-bff5-00a9d0c0b059",
+			"quantity": 1,
+			"description": "Drum",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "2 lb",
+			"reference": "B288",
+			"notes": "Audible for several miles",
+			"categories": [
+				"Musical Instrument"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e1aee9d6-daae-40ad-8d89-4cec91563600",
+			"quantity": 1,
+			"description": "Dugout Canoe, 8’",
+			"tech_level": "0",
+			"value": "920",
+			"weight": "520 lb",
+			"reference": "LT140",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "efb290a5-e793-46a6-919e-b4e2f2bd1fec",
+			"description": "Earthenware Jar, 1l",
+			"tech_level": "0",
+			"value": "1",
+			"weight": "1 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "5.44 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 1, Fragile (Brittle) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "d8c59727-d220-4775-ab75-2b6726309112",
+			"description": "Earthenware Jar, 4l",
+			"tech_level": "0",
+			"value": "3",
+			"weight": "4 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "20.8 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 1, Fragile (Brittle) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "a4868156-cbe0-4c38-9122-7d1b1102da31",
+			"description": "Earthenware Jar, 8l",
+			"tech_level": "0",
+			"value": "7.5",
+			"weight": "10 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "43.2 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 1, Fragile (Brittle) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "9f838d7d-9ebb-4006-b559-ef38f1b2c54e",
+			"description": "Earthenware Jar, 24l",
+			"tech_level": "0",
+			"value": "16",
+			"weight": "20 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "128 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 1, Fragile (Brittle) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "9c930392-1a8d-48fd-a0e9-c6c095f480f2",
+			"description": "Earthenware Jar, 62.5ml",
+			"tech_level": "0",
+			"value": "0.1",
+			"weight": "0.15 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "0.33 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 1, Fragile (Brittle) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "232ddf86-bee1-4f5b-b0a3-c7f2b58c7452",
+			"description": "Earthenware Jar, 80l",
+			"tech_level": "0",
+			"value": "41",
+			"weight": "52 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "432 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 1, Fragile (Brittle) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "1edbeda0-6bde-4df1-b6fc-fcb2c0b9960e",
+			"description": "Earthenware Jar, 250ml",
+			"tech_level": "0",
+			"value": "0.25",
+			"weight": "0.3 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1.31 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 1, Fragile (Brittle) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8a7f6dac-7a27-47f4-b027-7ea9343e7e60",
+			"quantity": 1,
+			"description": "Face Paint",
+			"tech_level": "0",
+			"value": "1",
+			"weight": "0.5 kg",
+			"reference": "DF16:17",
+			"uses": 50,
+			"max_uses": 50,
+			"notes": "This improves the bonus from camouflage clothing by another +1 for two hours. No bonus by itself",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "65ddd09e-e574-4591-9d39-b4f424b42e4a",
+			"quantity": 1,
+			"description": "Fire Arrow",
+			"tech_level": "0",
+			"value": "2",
+			"weight": "0.1 lb",
+			"reference": "LT73",
+			"notes": "Used for signaling, -2 to hit in combat, +1 fire damage",
+			"categories": [
+				"Ammunition"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d44101d9-97d3-46f6-8221-b1b2fe36cc54",
+			"quantity": 1,
+			"description": "Fire Bow",
+			"tech_level": "0",
+			"value": "5",
+			"weight": "0.75 lb",
+			"reference": "LT35",
+			"notes": "Base fire starting time 2 minutes",
+			"categories": [
+				"Camping and Survival Gear",
+				"Fire"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3d4e0a1a-0c9a-49e0-8dcf-9b6e9ae6cb80",
+			"quantity": 1,
+			"description": "Fire Sticks",
+			"tech_level": "0",
+			"value": "1",
+			"weight": "0.5 lb",
+			"reference": "LT36",
+			"notes": "Base fire starting time 6 minutes",
+			"categories": [
+				"Camping and Survival Gear",
+				"Fire"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6b755854-8c94-4d85-916e-f6486233a237",
+			"quantity": 1,
+			"description": "Fish Trap",
+			"tech_level": "0",
+			"value": "14",
+			"weight": "2 kg",
+			"reference": "LT29",
+			"notes": "+2 to Fishing in Good and better areas, 5kg capacity",
+			"categories": [
+				"Camping and Survival Gear",
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2643ffb6-a87b-464a-abcf-c0364feeb6a3",
+			"quantity": 1,
+			"description": "Fishhooks & Line",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "0.01 lb",
+			"reference": "B288",
+			"categories": [
+				"Camping and Survival Gear",
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "16f5a504-578a-42af-8d97-b829843b7774",
+			"quantity": 1,
+			"description": "Fishing Spear",
+			"tech_level": "0",
+			"value": "30",
+			"weight": "2 lb",
+			"reference": "LT57",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Spear"
+						},
+						{
+							"type": "Skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "3",
+					"range": "x1.5/x1.75",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Spear Thrower",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "bbe15839-49eb-4ef6-a564-ee93b24fc21a",
+			"quantity": 1,
+			"description": "Flint",
+			"tech_level": "0",
+			"reference": "LT35",
+			"notes": "Base fire-starting time: 30 seconds, loud",
+			"categories": [
+				"Camping and Survival Gear",
+				"Fire"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "042e1860-5f01-4ea1-a42b-a351fa54a96b",
+			"quantity": 1,
+			"description": "Foot Wrappings",
+			"tech_level": "0",
+			"value": "2",
+			"weight": "0.5 lb",
+			"reference": "LT98",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "feet"
+				}
+			],
+			"notes": "Flexible",
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "30b78184-5696-4a06-a88e-7bd47f575432",
+			"quantity": 1,
+			"description": "Foot Wrappings, Boot",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "2 lb",
+			"reference": "LT98",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "feet"
+				}
+			],
+			"notes": "Flexible, protects the leg on a 1-3 on 1d",
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "bd57ea3b-f424-46e0-899d-9327a75e8a40",
+			"quantity": 1,
+			"description": "Fur Cloak",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "3 lb",
+			"reference": "LT99",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "spec."
+					},
+					"strength": "8",
+					"usage": "Throw",
+					"accuracy": "1",
+					"range": "2",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Net",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Cloak"
+						}
+					]
+				}
+			],
+			"notes": "+1DR vs cutting from behind, Gives +1 to Disguise (Animals)",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "51107fc4-14bd-4a3b-9ea9-7e40de8f6a03",
+			"quantity": 1,
+			"description": "Garrote",
+			"tech_level": "0",
+			"value": "2",
+			"reference": "LT56",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "see B405"
+					},
+					"usage": "Garrote",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Garrote"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "9c41c6ac-65ef-4c3d-be76-6b4e8450e594",
+			"based_on_id": "8ef3ab82-c779-45a3-b207-64e54c301479",
+			"based_on_hash": "tDajTooHews9R0RA4oIpiopqwzKxhZhIW76DmFiYQ0Y",
+			"quantity": 1,
+			"description": "Group Basics",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "20 lb",
+			"reference": "B288",
+			"notes": "Basic equipment for Cooking and Survival skill for a group. Cook pot, rope, hatchet etc., for 3-8 campers.",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "21725a86-9583-4176-acaf-b7685eaec058",
+			"quantity": 1,
+			"description": "Hammer Stone",
+			"tech_level": "0",
+			"weight": "2 lb",
+			"reference": "LT36",
+			"categories": [
+				"Camping and Survival Gear",
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "94685e90-6544-407f-8eef-cccfb7fc6a04",
+			"quantity": 1,
+			"description": "Hatchet",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "2 lb",
+			"reference": "LT56",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"armor_divisor": 0.5
+					},
+					"strength": "8",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Unbalanced"
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "8",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x1.5/x2.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "a4e3d2de-c8e5-4fb2-9f78-2f522b616793",
+			"description": "Heavy Carrying Strap",
+			"tech_level": "0",
+			"value": "5",
+			"weight": "0.75 lb",
+			"reference": "LT36",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"notes": "Read notes Low Tech p.36",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "654ca821-f335-46b2-adc7-c79c0da3d606",
+			"quantity": 1,
+			"description": "Heavy Leather Collar",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "1 lb",
+			"reference": "LT117",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "groin"
+				}
+			],
+			"categories": [
+				"Animal"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c7c46fe6-0c3b-4597-b966-85f3e698e82c",
+			"quantity": 1,
+			"description": "Heavy Sling",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "1 lb",
+			"reference": "LT74",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+2"
+					},
+					"strength": "8†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "x3/x6",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-5",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -6
+						},
+						{
+							"type": "Skill",
+							"name": "Sling"
+						}
+					]
+				}
+			],
+			"notes": "Unshaped rocks and stones can be found for free, but they’re less accurate: -1 to hit.",
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b6b794df-414f-45ea-aa47-c5efd78572e0",
+			"quantity": 1,
+			"description": "Heavy Sling Shaped Rock",
+			"tech_level": "0",
+			"value": "0.1",
+			"weight": "1 lb",
+			"reference": "LT76",
+			"categories": [
+				"Ammunition"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d2d4f896-2231-4978-bfe9-64b9250d8d80",
+			"quantity": 1,
+			"description": "Hemlock",
+			"tech_level": "0",
+			"legality_class": "1",
+			"value": "5",
+			"reference": "LT129",
+			"categories": [
+				"Poison"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "01bba42f-992c-45bb-8f32-5e9081894084",
+			"description": "Hip Quiver",
+			"tech_level": "0",
+			"value": "15",
+			"weight": "1 lb",
+			"reference": "B289",
+			"notes": "Holds 20 arrows or bolts",
+			"categories": [
+				"Weapon and Combat Accessories"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c709a518-fa19-46b1-91ed-81de4a760034",
+			"quantity": 1,
+			"description": "Horn",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "2 lb",
+			"reference": "DF1:24",
+			"notes": "Audible for miles. Two-handed. Speech impossible.",
+			"categories": [
+				"Musical Instrument"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "83fde78e-f555-4316-b0d2-81ffc4563c36",
+			"quantity": 1,
+			"description": "Horn Arm Armor",
+			"tech_level": "0",
+			"value": "125",
+			"weight": "12.5 lb",
+			"reference": "LTIA7",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "arms"
+				}
+			],
+			"notes": "Reaction Pen.-1",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "57dea805-22a2-4a87-a89b-50b57ba94b62",
+			"quantity": 1,
+			"description": "Horn Helm",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "5 lb",
+			"reference": "LTIA13",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "skull"
+				}
+			],
+			"notes": "Reaction Pen.-1",
+			"categories": [
+				"Helm"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f58ebb74-8769-4f09-a833-21248cd6ae4b",
+			"quantity": 1,
+			"description": "Horn Leg Armor",
+			"tech_level": "0",
+			"value": "250",
+			"weight": "25 lb",
+			"reference": "LTIA10",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "legs"
+				}
+			],
+			"notes": "Reaction Pen.-1",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "bbd073ce-e692-47ba-8729-af096c6fed36",
+			"quantity": 1,
+			"description": "Horn Torso Armor",
+			"tech_level": "0",
+			"value": "250",
+			"weight": "25 lb",
+			"reference": "LTIA4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "groin"
+				}
+			],
+			"notes": "Reaction Pen.-2",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "2463d839-b995-4ae6-86c4-95d3b8b2f6aa",
+			"description": "Hunter-Gatherer Kit",
+			"tech_level": "0",
+			"value": "1",
+			"weight": "0.5 lb",
+			"reference": "LT36",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "10 lb"
+						}
+					}
+				]
+			},
+			"notes": "Wicker or hide construction",
+			"categories": [
+				"Camping and Survival Gear"
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "9a23b1fe-2832-48ae-835e-f4043afdda1e",
+					"quantity": 1,
+					"description": "Digging Sticks",
+					"tech_level": "0",
+					"value": "1",
+					"weight": "1.5 lb",
+					"reference": "LT36",
+					"categories": [
+						"Camping and Survival Gear",
+						"Tools"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "373d536d-1f98-4ebc-87f2-4414be13d05b",
+					"quantity": 1,
+					"description": "Fire Sticks",
+					"tech_level": "0",
+					"value": "1",
+					"weight": "0.5 lb",
+					"reference": "LT36",
+					"notes": "Base fire starting time 6 minutes",
+					"categories": [
+						"Camping and Survival Gear",
+						"Fire"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "0f372e45-ab31-47f7-b53e-798d9bd7602b",
+					"quantity": 1,
+					"description": "Hammer Stone",
+					"tech_level": "0",
+					"weight": "2 lb",
+					"reference": "LT36",
+					"categories": [
+						"Tools"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "8ca064fc-f665-4ea0-a588-dc4051d48dce",
+					"quantity": 1,
+					"description": "Punch",
+					"tech_level": "0",
+					"value": "5",
+					"weight": "0.25 lb",
+					"reference": "LT36",
+					"categories": [
+						"Tools"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "ae98763f-4881-4e1e-a479-5b59f89d0ce7",
+					"quantity": 1,
+					"description": "Stone Core",
+					"tech_level": "0",
+					"value": "12",
+					"weight": "1 lb",
+					"reference": "LT36",
+					"notes": "Used to create edged tools",
+					"categories": [
+						"Tools"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "36eb8bb8-3199-4275-94eb-445942a2c145",
+					"quantity": 1,
+					"description": "Thin Cord",
+					"tech_level": "0",
+					"value": "1",
+					"weight": "0.01 lb",
+					"reference": "LT36",
+					"notes": "1.25-2cm diameter by 30cm long",
+					"categories": [
+						"Tools"
+					]
+				}
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d9088f51-9dfe-4517-b703-0e5f308e8af0",
+			"quantity": 1,
+			"description": "Kayak, 18’",
+			"tech_level": "0",
+			"value": "500",
+			"weight": "240 lb",
+			"reference": "LT140",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "37a6ea89-6064-4126-805f-ff5c3a6d771e",
+			"quantity": 1,
+			"description": "Knobbed Club",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "2 lb",
+			"reference": "LT58",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+1"
+					},
+					"strength": "8",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Unbalanced"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "8e4c06ed-ee3d-4d26-b5be-66d7b781dfed",
+			"description": "Lanyard, Leather",
+			"tech_level": "0",
+			"value": "1",
+			"reference": "B289",
+			"notes": "Lets you retrieve a dropped weapon on a DX roll. Each attempt requires a Ready maneuver. Can be cut: -6 to hit, DR 2, HP 2.",
+			"categories": [
+				"Weapon and Combat Accessories"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "9c3b537c-32c7-4c30-93b2-ef5d9e737f2a",
+			"quantity": 1,
+			"description": "Large Bark Canoe, 20’",
+			"tech_level": "0",
+			"value": "220",
+			"weight": "1760 lb",
+			"reference": "LT140",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "5a09d867-d40f-4382-84f7-a2784dd311d3",
+			"quantity": 1,
+			"description": "Large Knife",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "1 lb",
+			"reference": "LT58",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-2",
+						"armor_divisor": 0.5
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"armor_divisor": 0.5
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0646352d-4988-4794-a8fd-2e3bf55054de",
+			"quantity": 1,
+			"description": "Large Net",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "20 lb",
+			"reference": "LT59",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "spec."
+					},
+					"strength": "11",
+					"usage": "Throw",
+					"accuracy": "1",
+					"range": "spec.",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Net"
+						},
+						{
+							"type": "Skill",
+							"name": "Cloak",
+							"modifier": -5
+						}
+					]
+				}
+			],
+			"notes": "May entangle or ensnare the target; Max range is (ST/2 + Skill/5)",
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "227765e7-aa62-473c-a749-f2a57646dcef",
+			"quantity": 1,
+			"description": "Large Shield, Light",
+			"tech_level": "0",
+			"value": "68",
+			"weight": "10 lb",
+			"reference": "LT114",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"usage": "Shield Bash",
+					"reach": "1",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Shield"
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Buckler",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Force Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Guige",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 3,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 3,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 3,
+					"attribute": "block"
+				}
+			],
+			"notes": "DR 2 HP 18 Cover DR 6",
+			"categories": [
+				"Shield"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e584fa5c-2c58-4afb-a835-8531f31f668c",
+			"quantity": 1,
+			"description": "Layered Cloth, Heavy Torso Armor",
+			"tech_level": "0",
+			"value": "600",
+			"weight": "28 lb",
+			"reference": "LTIA4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 4,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 4,
+					"location": "groin"
+				}
+			],
+			"notes": "Reaction Pen.-2",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "15684274-634f-4740-92e9-2897f560b89b",
+			"quantity": 1,
+			"description": "Layered Cloth, Light Arm Armor",
+			"tech_level": "0",
+			"value": "75",
+			"weight": "6 lb",
+			"reference": "LTIA7",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "arms"
+				}
+			],
+			"notes": "Flexible",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0fc37fa4-0cac-40ac-b26b-6844f1b0c5e0",
+			"quantity": 1,
+			"description": "Layered Cloth, Light Leg Armor",
+			"tech_level": "0",
+			"value": "150",
+			"weight": "12 lb",
+			"reference": "LTIA10",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "legs"
+				}
+			],
+			"notes": "Flexible",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "40724913-7626-40a4-bd7a-814419c0b1e4",
+			"quantity": 1,
+			"description": "Layered Cloth, Light Torso Armor",
+			"tech_level": "0",
+			"value": "150",
+			"weight": "12 lb",
+			"reference": "LTIA4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "groin"
+				}
+			],
+			"notes": "Flexible",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "05cd051e-3133-448a-a3b4-ba7e1c160a2c",
+			"quantity": 1,
+			"description": "Layered Cloth, Medium Arm Armor",
+			"tech_level": "0",
+			"value": "175",
+			"weight": "10 lb",
+			"reference": "LTIA7",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "arms"
+				}
+			],
+			"notes": "Reaction Pen.-1",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8dcb18a9-3899-4be0-a357-7d8190f317ed",
+			"quantity": 1,
+			"description": "Layered Cloth, Medium Leg Armor",
+			"tech_level": "0",
+			"value": "350",
+			"weight": "20 lb",
+			"reference": "LTIA10",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "legs"
+				}
+			],
+			"notes": "Reaction Pen.-1",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b726668b-be4a-4a7a-8bb0-aa473cf6b68c",
+			"quantity": 1,
+			"description": "Layered Cloth, Medium Torso Armor",
+			"tech_level": "0",
+			"value": "350",
+			"weight": "20 lb",
+			"reference": "LTIA4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "groin"
+				}
+			],
+			"notes": "Reaction Pen.-2",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "09f30bd8-0d1b-4fe8-9a96-7670d4501cd0",
+			"description": "Leather Pouch, 1l",
+			"tech_level": "0",
+			"value": "2",
+			"weight": "0.3 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "2.72 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "53a147e7-3eff-40b5-95a6-e76f6e7313cb",
+			"description": "Leather Pouch, 4l",
+			"tech_level": "0",
+			"value": "4.5",
+			"weight": "0.75 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "10.79 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "b37ba6e8-2d98-4a3e-85b6-f8767b37777b",
+			"description": "Leather Pouch, 8l",
+			"tech_level": "0",
+			"value": "7.35",
+			"weight": "1.25 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "22.41 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "e9877177-4b4d-44de-bd39-df4a90555a8b",
+			"description": "Leather Pouch, 24l",
+			"tech_level": "0",
+			"value": "15",
+			"weight": "2.5 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "66.4 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "fe7fd6b1-9406-4809-8a68-dba3ae8973ce",
+			"description": "Leather Pouch, 62.5ml",
+			"tech_level": "0",
+			"value": "0.25",
+			"weight": "0.05 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "0.16 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "7dda42b2-c0a9-4c7c-91e4-faeaea2cc154",
+			"description": "Leather Pouch, 80l",
+			"tech_level": "0",
+			"value": "34",
+			"weight": "5.5 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "224.1 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "80d1369f-b781-4dc0-9eb0-09fd6f163160",
+			"description": "Leather Pouch, 160l",
+			"tech_level": "0",
+			"value": "53",
+			"weight": "9 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "439.9 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "b336b254-0ab7-4e63-a6ef-3543603e3625",
+			"description": "Leather Pouch, 240l",
+			"tech_level": "0",
+			"value": "85",
+			"weight": "14 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "913 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "1610ec27-5cb5-4d74-a45a-658db6b6f2c9",
+			"description": "Leather Pouch, 250ml",
+			"tech_level": "0",
+			"value": "0.75",
+			"weight": "0.1 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "0.66 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "a0a621fc-cb1b-44a8-9c43-b3e0dcec0b23",
+			"description": "Leather Pouch, 480l",
+			"tech_level": "0",
+			"value": "111",
+			"weight": "18.5 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1328 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 2",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "7b147ce8-29b3-4870-852e-a130f2d4eb5a",
+			"quantity": 1,
+			"description": "Leather, Heavy Arm Armor",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "10 lb",
+			"reference": "LTIA7",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "arms"
+				}
+			],
+			"notes": "Reaction Pen.-1; -1 DR vs. impaling.",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e94e2b91-051c-407f-944a-03dad626b39a",
+			"quantity": 1,
+			"description": "Leather, Heavy Leg Armor",
+			"tech_level": "0",
+			"value": "200",
+			"weight": "20 lb",
+			"reference": "LTIA10",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "legs"
+				}
+			],
+			"notes": "Reaction Pen.-1; -1 DR vs. impaling.",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "02aabf27-62f8-4a68-99f4-ebd80f83dd59",
+			"quantity": 1,
+			"description": "Leather, Heavy Torso Armor",
+			"tech_level": "0",
+			"value": "200",
+			"weight": "20 lb",
+			"reference": "LTIA4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "groin"
+				}
+			],
+			"notes": "Reaction Pen.-2; -1 DR vs. impaling.",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "7f5f242d-e7d8-4e5e-8209-68188d2a261e",
+			"quantity": 1,
+			"description": "Leather, Light Arm Armor",
+			"tech_level": "0",
+			"legality_class": "5",
+			"value": "90",
+			"weight": "1.7 lb",
+			"reference": "LTIA7",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 0,
+					"location": "arms"
+				}
+			],
+			"notes": "Flexible; +1 DR vs. cutting.",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f69802fb-6dcc-49bd-b795-36ce87ce5259",
+			"quantity": 1,
+			"description": "Leather, Light Leg Armor",
+			"tech_level": "0",
+			"legality_class": "5",
+			"value": "180",
+			"weight": "3.3 lb",
+			"reference": "LTIA10",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 0,
+					"location": "legs"
+				}
+			],
+			"notes": "Flexible; +1 DR vs. cutting.",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b60f22c1-a9f7-445f-9c51-1bdf6200ff26",
+			"quantity": 1,
+			"description": "Leather, Light Torso Armor",
+			"tech_level": "0",
+			"legality_class": "5",
+			"value": "180",
+			"weight": "3.3 lb",
+			"reference": "LTIA4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 0,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 0,
+					"location": "groin"
+				}
+			],
+			"notes": "Flexible; +1 DR vs. cutting.",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "199a9b69-1567-44e5-990f-ff41b19693c0",
+			"quantity": 1,
+			"description": "Leather, Medium Arm Armor",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "6 lb",
+			"reference": "LTIA7",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "arms"
+				}
+			],
+			"notes": "Reaction Pen.-1; Flexible; -1 DR vs. impaling.",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3e95e29c-4b4a-4171-b63c-3731b0c1785c",
+			"quantity": 1,
+			"description": "Leather, Medium Leg Armor",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "12 lb",
+			"reference": "LTIA10",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "legs"
+				}
+			],
+			"notes": "Reaction Pen.-1; Flexible; -1 DR vs. impaling.",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "959d49cd-afa9-47b3-b823-56970203cefe",
+			"quantity": 1,
+			"description": "Leather, Medium Torso Armor",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "12 lb",
+			"reference": "LTIA4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "groin"
+				}
+			],
+			"notes": "Reaction Pen.-1; Flexible; -1 DR vs. impaling.",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "52d77bcf-938d-48b6-8a16-e71d4f451258",
+			"description": "Light Carrying Strap",
+			"tech_level": "0",
+			"value": "1",
+			"weight": "0.25 lb",
+			"reference": "LT36",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "10 lb"
+						}
+					}
+				]
+			},
+			"notes": "Read notes Low Tech p.36",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "30ef71ec-e88e-4ab1-90c2-ce7486f8d7dc",
+			"quantity": 1,
+			"description": "Light Club",
+			"tech_level": "0",
+			"value": "5",
+			"weight": "3 lb",
+			"reference": "LT58",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "37f32e61-b3f9-4812-9786-619692475e94",
+			"quantity": 1,
+			"description": "Litter",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "25 lb",
+			"reference": "LT136",
+			"notes": "Requires two porters",
+			"categories": [
+				"Land Vehicle"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "82acf7de-550a-4416-82c4-9e4e05cc2ac3",
+			"quantity": 1,
+			"description": "Long Dugout Canoe, 30’",
+			"tech_level": "0",
+			"value": "4000",
+			"weight": "5500 lb",
+			"reference": "LT140",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2559241e-d8fd-423a-a7c5-a15db4980336",
+			"quantity": 1,
+			"description": "Long Staff",
+			"tech_level": "0",
+			"value": "15",
+			"weight": "5 lb",
+			"reference": "LT61",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+2"
+					},
+					"strength": "10†",
+					"usage": "Swung",
+					"reach": "2,3",
+					"parry": "2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Balanced Pole"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "+2"
+					},
+					"strength": "10†",
+					"usage": "Thrust",
+					"reach": "2,3",
+					"parry": "2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Balanced Pole"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f7361fdf-efa4-4dc3-b086-af4cc9570af1",
+			"quantity": 1,
+			"description": "Longbow",
+			"tech_level": "0",
+			"value": "200",
+			"weight": "3 lb",
+			"reference": "LT72",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+2"
+					},
+					"strength": "11†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-8",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Bow"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "858ced04-5220-4213-baba-3c80300a15b9",
+			"quantity": 1,
+			"description": "Maul",
+			"tech_level": "0",
+			"value": "80",
+			"weight": "12 lb",
+			"reference": "LT58",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+5"
+					},
+					"strength": "13‡",
+					"usage": "Swing",
+					"reach": "1,2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Unbalanced"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b620c53f-eb9f-475f-b59d-20c28c52c6a6",
+			"quantity": 1,
+			"description": "Medium Shield, Light",
+			"tech_level": "0",
+			"value": "45",
+			"weight": "7 lb",
+			"reference": "LT114",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"usage": "Shield Bash",
+					"reach": "1",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Shield"
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Buckler",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Force Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Guige",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "block"
+				}
+			],
+			"notes": "DR 2 HP 16 Cover DR 6",
+			"categories": [
+				"Shield"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "1d931e34-af9a-4d00-a77d-acce475a8f01",
+			"quantity": 1,
+			"description": "Moccasins ",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "1 lb",
+			"reference": "LTIA16",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "feet"
+				}
+			],
+			"notes": "Flexible; Gives +1 to Stealth.",
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c03dd1d7-9617-44f6-8301-e40db4c4ee60",
+			"quantity": 1,
+			"description": "Monkshood",
+			"tech_level": "0",
+			"legality_class": "1",
+			"value": "6",
+			"reference": "LT129",
+			"categories": [
+				"Poison"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0461c404-e708-4e66-9a67-0f927562d19a",
+			"quantity": 1,
+			"description": "Mortar and Pestle (Stone)",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "3 kg",
+			"reference": "DF8:14",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3a12df0d-40b2-4c9c-8d38-10d2c0dc2e45",
+			"quantity": 1,
+			"description": "Mortar and Pestle (Wood)",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "1.5 kg",
+			"reference": "DF8:14",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c304fb43-0a79-466c-aa9f-29295885537a",
+			"quantity": 1,
+			"description": "Mukluks ",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "2 lb",
+			"reference": "LTIA16",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "feet"
+				}
+			],
+			"notes": "Flexible; Erases -2 in Stealth penalties when walking on snow.",
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d3afa64e-2dea-478d-8a3f-1de4843ed2b9",
+			"quantity": 1,
+			"description": "Oar",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "8 lb",
+			"reference": "LT60",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+3"
+					},
+					"strength": "12‡",
+					"usage": "Swung",
+					"reach": "1,2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Unbalanced"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ee9dda87-7d86-4938-ab4c-b80ae798485a",
+			"quantity": 1,
+			"description": "Oblong Hide Boat, 5’",
+			"tech_level": "0",
+			"value": "85",
+			"weight": "360 lb",
+			"reference": "LT140",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f3a1132e-9690-400b-bb50-d475ba8d4980",
+			"quantity": 1,
+			"description": "Outrigger Canoe, 30’",
+			"tech_level": "0",
+			"value": "6000",
+			"weight": "5900 lb",
+			"reference": "LT140",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c5c04d02-9c1e-4bd1-a90b-cf4cce5dcf09",
+			"quantity": 1,
+			"description": "Parka",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "5 kg",
+			"reference": "LT99",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "neck"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "arms"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "legs"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": -1,
+					"attribute": "dx"
+				}
+			],
+			"notes": "Worn over winter clothing to protect against arctic conditions, +1 DR, -1 DX",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "227fca88-0fac-4ab9-8f44-704df9f01f96",
+			"quantity": 1,
+			"description": "Parrying Buckler",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "8 lb",
+			"reference": "LT114",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"usage": "Shield Bash",
+					"reach": "1",
+					"parry": "No",
+					"block": "+1",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Buckler"
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Force Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Guige",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "block"
+				}
+			],
+			"notes": "DR 4 HP 16 Cover DR 8",
+			"categories": [
+				"Shield"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ed8da900-6492-44a5-88a8-93cb6fd92063",
+			"quantity": 1,
+			"description": "Pole, 2m",
+			"tech_level": "0",
+			"value": "5",
+			"weight": "3 lb",
+			"reference": "B288",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c6e44a83-5c4d-4588-86ec-39bf2e7dba03",
+			"quantity": 1,
+			"description": "Pole, 3m",
+			"tech_level": "0",
+			"value": "8",
+			"weight": "5 lb",
+			"reference": "B288",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0cf7c261-61f5-48db-adcb-b4c49610a511",
+			"quantity": 1,
+			"description": "Prepared Block",
+			"tech_level": "0",
+			"value": "3",
+			"weight": "0.5 lb",
+			"reference": "LT35",
+			"notes": "Base fire starting time 3 minutes",
+			"categories": [
+				"Camping and Survival Gear",
+				"Fire"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "4e696905-8edb-4e75-b4bf-8d5b013773e6",
+			"quantity": 1,
+			"description": "Quarterstaff",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "4 lb",
+			"reference": "LT61",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+2"
+					},
+					"strength": "7†",
+					"usage": "Swung",
+					"reach": "1,2",
+					"parry": "+2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Balanced Pole"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "+2"
+					},
+					"strength": "7†",
+					"usage": "Thrust",
+					"reach": "1,2",
+					"parry": "+2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Balanced Pole"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "48c0e632-de73-4183-ba56-faad0fe59390",
+			"quantity": 1,
+			"description": "Raft, 4\" Logs",
+			"tech_level": "0",
+			"value": "95",
+			"weight": "580 lb",
+			"reference": "LT138",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a8a6cfad-ab7e-4fa7-8ea4-ed33a44770bc",
+			"quantity": 1,
+			"description": "Raft, 6.5\" Reeds",
+			"tech_level": "0",
+			"value": "330",
+			"weight": "1180 lb",
+			"reference": "LT138",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b1d2df4f-66fd-4f18-a0b0-1e57accc5981",
+			"quantity": 1,
+			"description": "Raft, 7\" Logs",
+			"tech_level": "0",
+			"value": "140",
+			"weight": "960 lb",
+			"reference": "LT138",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d0f87102-d56c-4501-86ff-8d63be12f486",
+			"quantity": 1,
+			"description": "Raft, 10\" Logs",
+			"tech_level": "0",
+			"value": "195",
+			"weight": "1360 lb",
+			"reference": "LT138",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "949c5506-aa35-4c23-a74a-a8f4859fdbf2",
+			"quantity": 1,
+			"description": "Raft, 12\" Logs",
+			"tech_level": "0",
+			"value": "240",
+			"weight": "1760 lb",
+			"reference": "LT138",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2daea231-4367-47dc-a80f-37dab6c37464",
+			"quantity": 1,
+			"description": "Regular Bow",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "2 lb",
+			"reference": "LT72",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Bow"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "78bc5272-540c-49af-8b64-faf36f8f7a05",
+			"quantity": 1,
+			"description": "Round Hide Boat, 5’",
+			"tech_level": "0",
+			"value": "280",
+			"weight": "2600 lb",
+			"reference": "LT140",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "64023dd5-fd6d-46bc-86a4-dd60e58ad160",
+			"quantity": 1,
+			"description": "Round Mace",
+			"tech_level": "0",
+			"value": "35",
+			"weight": "5 lb",
+			"reference": "LT58",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+2"
+					},
+					"strength": "12",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Unbalanced"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+3"
+					},
+					"strength": "11",
+					"usage": "Swung - Two Handed",
+					"reach": "1",
+					"parry": "0u",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Two-Handed Unbalanced"
+						},
+						{
+							"type": "DX",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+2"
+					},
+					"strength": "12",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x0.5/x1",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "5bdd6dcb-3f31-4101-8528-070f20974498",
+			"quantity": 1,
+			"description": "Saw",
+			"tech_level": "0",
+			"value": "150",
+			"weight": "3 lb",
+			"reference": "B289",
+			"notes": "A lumberjack's tool, not a carpentry saw",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d3d08b59-9d38-4688-91f4-eddc627afd49",
+			"quantity": 1,
+			"description": "Shaped Sling Stone",
+			"tech_level": "0",
+			"value": "0.06",
+			"weight": "0.05 lb",
+			"reference": "LT76",
+			"categories": [
+				"Ammunition"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d0fb6080-95ec-43df-adae-6a36b39c6e96",
+			"quantity": 1,
+			"description": "Short Baton",
+			"tech_level": "0",
+			"value": "30",
+			"weight": "0.5 lb",
+			"reference": "LT54",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Swung",
+					"reach": "C, 1",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d0c73b30-8ae3-48b6-9a02-afdc836e6bd5",
+			"quantity": 1,
+			"description": "Short Bow",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "1.5 lb",
+			"reference": "LT72",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "7†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Bow"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "1ced02b1-20b9-4c3b-9642-b954898c471e",
+			"description": "Shoulder Quiver",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "0.5 lb",
+			"reference": "B289",
+			"notes": "Holds 12 arrows or bolts",
+			"categories": [
+				"Weapon and Combat Accessories"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "18c38bf4-9d8c-4eb8-9e1a-902200d18c1d",
+			"quantity": 1,
+			"description": "Skates",
+			"tech_level": "0",
+			"value": "60",
+			"weight": "1.5 kg",
+			"reference": "LT133",
+			"notes": "1.25x move on ice, attach to other footwear",
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "9d5114a4-5c9d-477f-b916-3d2171f079e2",
+			"quantity": 1,
+			"description": "Skis",
+			"tech_level": "0",
+			"value": "175",
+			"weight": "5 kg",
+			"reference": "LT133",
+			"notes": "1x move on snow, 0.5x uphill, 4x downhill attach to other footwear",
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "80643e43-319c-4b65-b020-a7e07abe3635",
+			"description": "Sledge",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "10 kg",
+			"reference": "LT133",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "250 kg"
+						}
+					}
+				]
+			},
+			"notes": "Divides effective load by 2 on snow or ice, or by 1.5 on hard, smooth ground",
+			"categories": [
+				"Land Vehicle"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ce6bf3b0-7063-4c6c-b8e2-f1547e4ce97a",
+			"quantity": 1,
+			"description": "Sleeping Fur",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "8 lb",
+			"reference": "B288",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e2598916-251f-4f77-8b55-fb8e58d89d44",
+			"quantity": 1,
+			"description": "Sling",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "0.5 lb",
+			"reference": "LT74",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Shoot",
+					"accuracy": "0",
+					"range": "x6/x10",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -6
+						},
+						{
+							"type": "Skill",
+							"name": "Sling"
+						}
+					]
+				}
+			],
+			"notes": "Requires two hands to ready, but only one hand to attack.; unshaped rocks and stones can be found for free, but they’re less accurate: -1 to hit",
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3bf52626-7336-4957-b66d-12de5a7a098d",
+			"quantity": 1,
+			"description": "Small Axe",
+			"tech_level": "0",
+			"value": "45",
+			"weight": "3 lb",
+			"reference": "LT54",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+1",
+						"armor_divisor": 0.5
+					},
+					"strength": "10",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Unbalanced"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f1ac5352-fd26-404f-ae42-36b6213c6040",
+			"quantity": 1,
+			"description": "Small Knife",
+			"tech_level": "0",
+			"value": "30",
+			"weight": "0.5 lb",
+			"reference": "LT58",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-3",
+						"armor_divisor": 0.5
+					},
+					"strength": "5",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1",
+						"armor_divisor": 0.5
+					},
+					"strength": "7",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Balanced"
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrown",
+					"accuracy": "0",
+					"range": "x0.5/x1",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "bcd53e4d-a332-49bd-8156-d067760ac076",
+			"quantity": 1,
+			"description": "Small Round Mace",
+			"tech_level": "0",
+			"value": "25",
+			"weight": "3 lb",
+			"reference": "LT58",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Unbalanced"
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-3",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d3f9cbe9-03fb-46ff-b470-1198dacb19ba",
+			"quantity": 1,
+			"description": "Small Shield, Light",
+			"tech_level": "0",
+			"value": "30",
+			"weight": "3 lb",
+			"reference": "LT114",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"usage": "Shield Bash",
+					"reach": "1",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Shield"
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Buckler",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Force Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Guige",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "block"
+				}
+			],
+			"notes": "DR 2 HP 12 Cover DR 5",
+			"categories": [
+				"Shield"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "29f76548-15cc-4ab2-9d49-fae822aa665a",
+			"quantity": 1,
+			"description": "Small Throwing Axe",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "3 lb",
+			"reference": "LT64",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+1",
+						"armor_divisor": 0.5
+					},
+					"strength": "10",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Unbalanced"
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+1",
+						"armor_divisor": 0.5
+					},
+					"strength": "10",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-3",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0630a006-3ba6-4806-8239-d3f67cfbeca9",
+			"quantity": 1,
+			"description": "Snow Goggles",
+			"tech_level": "0",
+			"value": "15",
+			"weight": "1 lb",
+			"reference": "LT99",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "Vision"
+					}
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "eyes"
+				}
+			],
+			"notes": "Wooden with narrow horizontal vision slit",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2dede3c7-58a0-4c6d-8045-caea2bea038a",
+			"quantity": 1,
+			"description": "Snowshoes",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "2.5 kg",
+			"reference": "DF16:18",
+			"notes": "0.5x move on snow, attach to other footwear",
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f46eaeb2-5c0c-4166-acc3-2a6b0e55f464",
+			"quantity": 1,
+			"description": "Spear",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "4 lb",
+			"reference": "LT62",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+2",
+						"armor_divisor": 0.5
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1*",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Balanced Pole"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+3",
+						"armor_divisor": 0.5
+					},
+					"strength": "9†",
+					"usage": "Thrust - two hands",
+					"reach": "1,2*",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Balanced Pole"
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+3",
+						"armor_divisor": 0.5
+					},
+					"strength": "9",
+					"usage": "Thrown",
+					"accuracy": "2",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear"
+						},
+						{
+							"type": "Skill",
+							"name": "Spear Thrower",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "53ad9d78-ceed-4f00-8272-de15ead51cd4",
+			"quantity": 1,
+			"description": "Splints, Arm",
+			"tech_level": "0",
+			"value": "25",
+			"weight": "1 lb",
+			"reference": "LT146",
+			"categories": [
+				"Medical Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "9ca154cf-61f9-4d17-8e22-cd8cd6c89954",
+			"quantity": 1,
+			"description": "Splints, Leg",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "2 lb",
+			"reference": "LT146",
+			"categories": [
+				"Medical Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "bb3f6e73-ed25-4b3a-b0a3-6a3befa04314",
+			"quantity": 1,
+			"description": "Staff",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "2 lb",
+			"reference": "LT57",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+1"
+					},
+					"strength": "6†",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "+2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Balanced Pole"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "6†",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "+2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Balanced Pole"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a7193352-bfa3-4705-95b4-0d136ab17e9e",
+			"quantity": 1,
+			"description": "Stone Core",
+			"tech_level": "0",
+			"value": "12",
+			"weight": "1 lb",
+			"reference": "LT36",
+			"notes": "Used to create edged tools",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "764a9b7b-a476-47e0-a1ae-4524fc2ef7e4",
+			"quantity": 1,
+			"description": "Tailor's Kit",
+			"tech_level": "0",
+			"value": "95",
+			"weight": "2.75 lb",
+			"reference": "LT30",
+			"notes": "Basic tools for working with cloth and leather",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "af9c1e1c-1516-4b4b-84b2-87527fca17e7",
+			"quantity": 1,
+			"description": "Tattoo Workshop",
+			"tech_level": "0",
+			"value": "625",
+			"weight": "10 kg",
+			"reference": "RPM28",
+			"notes": "Includes needles, bowls, special inks, etc",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e126613d-daa3-4ab1-9fa1-cccd3c4f37ca",
+			"quantity": 1,
+			"description": "Tent, 1-Man",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "5 lb",
+			"reference": "B288",
+			"notes": "Includes ropes; no poles needed",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "fd3742e2-b6e7-4b7a-a1a4-b1cf94551ebf",
+			"quantity": 1,
+			"description": "Tent, 2-Man",
+			"tech_level": "0",
+			"value": "80",
+			"weight": "12 lb",
+			"reference": "B288",
+			"notes": "Includes ropes; requires one 2m pole",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "aaf1dc58-3e38-49cb-a043-ea5046850182",
+			"quantity": 1,
+			"description": "Tent, 4-Man",
+			"tech_level": "0",
+			"value": "150",
+			"weight": "30 lb",
+			"reference": "B288",
+			"notes": "Includes ropes; requires two 2m poles",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "62912b96-ec8c-490f-ae68-8979e5a586f0",
+			"quantity": 1,
+			"description": "Throwing Axe",
+			"tech_level": "0",
+			"value": "60",
+			"weight": "4 lb",
+			"reference": "LT64",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+2",
+						"armor_divisor": 0.5
+					},
+					"strength": "11",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "One-Handed Unbalanced"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+3",
+						"armor_divisor": 0.5
+					},
+					"strength": "10†",
+					"usage": "Swung - two handed",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Unbalanced"
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+2",
+						"armor_divisor": 0.5
+					},
+					"strength": "11",
+					"usage": "Thrown",
+					"accuracy": "2",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-3",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d5afc117-4e6e-4e0c-b9b3-edc17815ac25",
+			"quantity": 1,
+			"description": "Throwing Stick",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "1 lb",
+			"reference": "LT72",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x4/x8",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Stick"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "963da49a-088d-4693-a726-50aa4b58483e",
+			"quantity": 1,
+			"description": "Torch",
+			"tech_level": "0",
+			"value": "3",
+			"weight": "1 lb",
+			"reference": "B288",
+			"notes": "Burns for 1 hour",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "eb1ed667-61af-4081-a482-212222108b97",
+			"quantity": 1,
+			"description": "Torch, Tar",
+			"tech_level": "0",
+			"value": "7",
+			"weight": "1 lb",
+			"reference": "B288",
+			"notes": "Burns for 2 hours",
+			"categories": [
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "cc006d43-0e2c-4a83-a362-32b31ce50c4f",
+			"quantity": 1,
+			"description": "Tourniquet",
+			"tech_level": "0",
+			"value": "2",
+			"reference": "LT145",
+			"categories": [
+				"Medical Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e0539488-a425-4bf0-a801-d27a00deb05c",
+			"quantity": 1,
+			"description": "Traveler's Rations",
+			"tech_level": "0",
+			"value": "2",
+			"weight": "0.5 lb",
+			"reference": "B288",
+			"notes": "One meal",
+			"categories": [
+				"Camping and Survival Gear",
+				"Food"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "eec41f46-6c6d-4dfc-bb36-6143709a96b4",
+			"description": "Travois, Dog-sized",
+			"tech_level": "0",
+			"value": "12",
+			"weight": "3 kg",
+			"reference": "LT133",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "125 kg"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "contained_weight_reduction",
+					"reduction": "-50%"
+				}
+			],
+			"notes": "divides effective load by 2 on snow or ice, or by 1.5 on grass or woodlands",
+			"categories": [
+				"Animal",
+				"Land Vehicle"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "5ae1bf0a-38df-46f6-ae78-fa483bc71c74",
+			"description": "Travois, Man-sized",
+			"tech_level": "0",
+			"value": "25",
+			"weight": "6 kg",
+			"reference": "LT133",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "250 kg"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "contained_weight_reduction",
+					"reduction": "-50%"
+				}
+			],
+			"notes": "divides effective load by 2 on arctic, or by 1.5 on tundra or woodlands",
+			"categories": [
+				"Land Vehicle"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e0117688-3311-4f87-a9c5-366bdac4bb4e",
+			"quantity": 1,
+			"description": "Viper Venom",
+			"tech_level": "0",
+			"legality_class": "0",
+			"value": "10",
+			"reference": "LT129",
+			"categories": [
+				"Poison"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6fd92f93-44a7-4c0f-b849-7786a8588526",
+			"quantity": 1,
+			"description": "War Canoe, 60’",
+			"tech_level": "0",
+			"value": "18000",
+			"weight": "11600 lb",
+			"reference": "LT140",
+			"categories": [
+				"Boats and Ships"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "241c9c7e-7657-49a4-a4b0-eef3852f7601",
+			"description": "Wicker Basket, 1l",
+			"tech_level": "0",
+			"value": "0.5",
+			"weight": "0.25 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "2.72 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "7ff39380-54b9-433a-b894-7b31f5e1171b",
+			"description": "Wicker Basket, 4l",
+			"tech_level": "0",
+			"value": "1.75",
+			"weight": "1 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "10.79 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "1bfbb930-fb01-48de-a27a-e3c1ac6f3c34",
+			"description": "Wicker Basket, 8l",
+			"tech_level": "0",
+			"value": "3",
+			"weight": "1.5 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "22.41 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "d17a9bd1-7ad6-4056-9fe7-8c86c636d842",
+			"description": "Wicker Basket, 24l",
+			"tech_level": "0",
+			"value": "7.5",
+			"weight": "3.75 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "66.4 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "9c25a54a-031b-486e-a9b3-04cda3d705ec",
+			"description": "Wicker Basket, 80l",
+			"tech_level": "0",
+			"value": "16",
+			"weight": "8 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "224.1 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "1f8c7904-667b-4b39-9711-31f18c8b14c6",
+			"description": "Wicker Basket, 160l",
+			"tech_level": "0",
+			"value": "39",
+			"weight": "20 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "439.9 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "021a3beb-6de3-4e6e-823c-cba224bd3ef4",
+			"description": "Wicker Basket, 250ml",
+			"tech_level": "0",
+			"value": "0.1",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "0.16 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "13af6241-8126-4e21-8a48-a212803f6801",
+			"description": "Wicker Basket, 250ml",
+			"tech_level": "0",
+			"value": "0.15",
+			"weight": "0.07 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "0.66 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "38d94a92-3014-4711-80a5-f302b7e0ec44",
+			"description": "Wicker Basket, 320l",
+			"tech_level": "0",
+			"value": "62",
+			"weight": "31 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "913 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "43678e27-3dff-48ad-9369-40ed0c88a4eb",
+			"description": "Wicker Basket, 480l",
+			"tech_level": "0",
+			"value": "108",
+			"weight": "54 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1328 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e19d2dc3-a374-4b8d-85df-530ac1b28e5b",
+			"quantity": 1,
+			"description": "Willow Leaf Arrow",
+			"tech_level": "0",
+			"value": "2",
+			"weight": "0.1 lb",
+			"reference": "LT73",
+			"notes": "Converts damage to Cutting",
+			"categories": [
+				"Ammunition"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "4d44f36f-6971-4245-be30-57273a457275",
+			"description": "Wineskin",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "0.25 lb",
+			"reference": "B288",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "8 lb"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Camping and Survival Gear"
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "dc1f7ec7-888c-49b4-ae96-8943351c1d52",
+					"quantity": 1,
+					"description": "Water, 1 liter",
+					"weight": "2 lb",
+					"notes": "Potable",
+					"categories": [
+						"Camping and Survival Gear",
+						"Food"
+					]
+				}
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c9771694-1493-4d92-a921-f755e01cfbd4",
+			"quantity": 1,
+			"description": "Wood Arm Armor",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "15 lb",
+			"reference": "LTIA7",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "arms"
+				}
+			],
+			"notes": "Reaction Pen.-1; Semi-ablative.",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f9a371a9-59da-4c28-8984-9725b93e067e",
+			"quantity": 1,
+			"description": "Wood Helm",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "6 lb",
+			"reference": "LTIA13",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "skull"
+				}
+			],
+			"notes": "Reaction Pen.-1; Semi-ablative.",
+			"categories": [
+				"Helm"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a2c41706-ab9d-4445-b186-8d2011601fb5",
+			"quantity": 1,
+			"description": "Wood Leg Armor",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "30 lb",
+			"reference": "LTIA10",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "legs"
+				}
+			],
+			"notes": "Don: 30 secs; Holdout: -9; Reaction Pen.-1; Semi-ablative. Loses 1 DR per 10 points of basic damage it resists (see p. B47).",
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b7f1460b-27e9-43a9-b11a-6cd3b7f4645b",
+			"quantity": 1,
+			"description": "Wood Mask",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "3 lb",
+			"reference": "LTIA13",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "face"
+				}
+			],
+			"notes": "Semi-ablative.",
+			"categories": [
+				"Helm"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "dea7bbe4-2e13-40b3-a428-e5efbc90e4ff",
+			"quantity": 1,
+			"description": "Wood Torso Armor",
+			"tech_level": "0",
+			"value": "100",
+			"weight": "30 lb",
+			"reference": "LTIA5",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "groin"
+				}
+			],
+			"notes": "Reaction Pen.-2; Semi-ablative",
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "bd99b2b9-d565-4165-bf25-218b05b9631c",
+			"description": "Wooden Box or Barrel, 1l",
+			"tech_level": "0",
+			"value": "3",
+			"weight": "0.25 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "5.44 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "ce917a3a-3e8a-40d9-8d10-bc42b61199c0",
+			"description": "Wooden Box or Barrel, 4l",
+			"tech_level": "0",
+			"value": "10",
+			"weight": "1.5 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "20.8 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "fe936a38-2712-4352-b5a5-99feb132a69e",
+			"description": "Wooden Box or Barrel, 8l",
+			"tech_level": "0",
+			"value": "17",
+			"weight": "2.5 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "43.2 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "1ccd0e9e-70c0-42d9-9909-47ebdf72330e",
+			"description": "Wooden Box or Barrel, 24l",
+			"tech_level": "0",
+			"value": "31",
+			"weight": "6 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "128 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "df93cd0c-5842-4564-8e74-d276c5faaf5e",
+			"description": "Wooden Box or Barrel, 80l",
+			"tech_level": "0",
+			"value": "55",
+			"weight": "11 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "432 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "d0c4ded1-5b22-4b38-8129-d0416d3dea90",
+			"description": "Wooden Box or Barrel, 160l",
+			"tech_level": "0",
+			"value": "113",
+			"weight": "32 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "848 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "53e114aa-fcbd-4629-958b-7d04116af594",
+			"description": "Wooden Box or Barrel, 240l",
+			"tech_level": "0",
+			"value": "178",
+			"weight": "50 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1760 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "e7009206-05b4-4db7-acf1-a4a0509b77f5",
+			"description": "Wooden Box or Barrel, 250ml",
+			"tech_level": "0",
+			"value": "0.5",
+			"weight": "0.05 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "0.33 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "1297bdb7-1edc-43ae-892e-104868e652ed",
+			"description": "Wooden Box or Barrel, 250ml",
+			"tech_level": "0",
+			"value": "1",
+			"weight": "0.1 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1.31 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "5db17391-bcff-4bd5-8d03-e49b2dbcb592",
+			"description": "Wooden Box or Barrel, 480l",
+			"tech_level": "0",
+			"value": "239",
+			"weight": "88 lb",
+			"reference": "LT34",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "2560 lb"
+						}
+					}
+				]
+			},
+			"notes": "DR 0, Fragile (Combustible) see B136",
+			"categories": [
+				"Containers"
+			],
+			"open": true
+		}
+	]
+}

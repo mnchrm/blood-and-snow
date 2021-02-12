@@ -1,0 +1,812 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "2b67d334-43b4-488d-ab98-8d79658eed2a",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "be99efed-69e0-481e-9c1d-d335f76d5ae9",
+			"name": "Craftmage",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "4a4b3661-8eef-4006-a74a-0ee8a0c3a62b",
+					"name": "Single-Minded",
+					"mental": true,
+					"base_points": 5,
+					"reference": "B85",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "25e12680-b0d8-494c-bc5a-bf13745583ae",
+					"name": "Versatile",
+					"mental": true,
+					"base_points": 5,
+					"reference": "B96",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "0fa510c7-5ec5-4ec6-b8dc-94570e6ad2b7",
+			"container_type": "race",
+			"name": "Ice Kobold",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "bf67c86c-2143-4752-b396-4ed7b30d3301",
+					"name": "Cultural",
+					"open": false,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "4b4884a1-ca14-42b4-b75d-2878181a18ac",
+							"name": "Staid",
+							"mental": true,
+							"base_points": -1,
+							"reference": "B164",
+							"categories": [
+								"Quirk"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "a01e2954-71df-441f-bc26-45d8c569d98e",
+							"name": "Serious",
+							"mental": true,
+							"social": true,
+							"base_points": -1,
+							"reference": "PU6:20",
+							"categories": [
+								"Quirk"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "38e3c28a-42bb-40ce-b00b-b1ba19b70f9d",
+							"name": "Selfish",
+							"mental": true,
+							"base_points": -5,
+							"cr": 9,
+							"reference": "B153",
+							"categories": [
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "79339e45-db48-4d9e-85ef-28bf29f80011",
+							"name": "Intolerance (Racial)",
+							"mental": true,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "7eb3c54b-dd37-4381-9f74-79f828306a90",
+									"disabled": true,
+									"name": "Scope: Common",
+									"reference": "B140",
+									"cost_type": "points",
+									"cost": -5,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "05e2eb97-3281-4508-b019-0308ef3c0717",
+									"disabled": true,
+									"name": "Scope: Occasional",
+									"reference": "B140",
+									"cost_type": "points",
+									"cost": -2,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "dcf063c8-1101-4aa1-bbfb-0e2bd79b8c63",
+									"disabled": true,
+									"name": "Scope: Rare",
+									"reference": "B140",
+									"cost_type": "points",
+									"cost": -1,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "89749306-12cd-4421-a798-d1cea19e8573",
+									"name": "Scope: Anyone unlike you",
+									"reference": "B140",
+									"cost_type": "points",
+									"cost": -10,
+									"affects": "total"
+								}
+							],
+							"reference": "B140",
+							"categories": [
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "e8dcfbea-c4db-4098-bce0-4e4a363ae878",
+							"name": "Talent (Stalker)",
+							"mental": true,
+							"levels": "2",
+							"points_per_level": 5,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "ebc66baf-f2b4-4484-a7f8-68c6eef098a6",
+									"disabled": true,
+									"name": "Reaction Bonus",
+									"cost_type": "percentage",
+									"cost": 0,
+									"affects": "total",
+									"notes": "Hunters, trackers, etc."
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "d9256a8d-87ab-4f61-a6b7-4fe52fe5c3bd",
+									"name": "Alternative Benefit",
+									"cost_type": "percentage",
+									"cost": 0,
+									"affects": "total",
+									"notes": "+1/level to Per rolls to keep track of a specific quarry you’ve already spotted using other skills."
+								}
+							],
+							"reference": "PU3:15",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Camouflage"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Hiking"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Navigation (Land)"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Stealth"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Tracking"
+									}
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Talent"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "ac1479d3-5cf7-422c-9006-42f4300a6731",
+					"name": "Mental",
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "45a6a1d4-a558-453e-afbe-761c8f2f7659",
+							"name": "High TL",
+							"mental": true,
+							"levels": "1",
+							"points_per_level": 5,
+							"reference": "B23",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "ddf3b413-1dd4-4f7e-a770-6eba4ed2a345",
+							"name": "Fearfulness",
+							"mental": true,
+							"levels": "2",
+							"points_per_level": -2,
+							"reference": "B136",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "advantage_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "fearlessness"
+										}
+									}
+								]
+							},
+							"categories": [
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "2a463f99-016d-4d5a-a4ec-7f5799e840e8",
+							"name": "Paranoia",
+							"mental": true,
+							"base_points": -10,
+							"reference": "B148",
+							"categories": [
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "ef4e5a9a-bc23-4c98-acc2-f0c6e91b95aa",
+							"name": "Social Stigma (Monster)",
+							"social": true,
+							"base_points": -15,
+							"reference": "B155",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "intimidation"
+									}
+								}
+							],
+							"notes": "-3 Reaction",
+							"categories": [
+								"Disadvantage"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "c49d2e49-097a-4c78-a303-22bf5d761de0",
+					"name": "Physical",
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "25dbe67a-8c8e-4182-8fab-0d2e86b9a8e5",
+							"name": "Acute Taste & Smell",
+							"physical": true,
+							"levels": "1",
+							"points_per_level": 2,
+							"reference": "B35",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "taste_smell"
+								}
+							],
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "bcb37265-4200-4f1c-bf58-63d0915a1843",
+							"name": "Claws, Blunt (Feet)",
+							"physical": true,
+							"weapons": [
+								{
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"usage": "Kick",
+									"reach": "C,1",
+									"parry": "No",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "DX",
+											"modifier": -2
+										},
+										{
+											"type": "Skill",
+											"name": "Brawling",
+											"modifier": -2
+										},
+										{
+											"type": "Skill",
+											"name": "Karate",
+											"modifier": -2
+										}
+									]
+								}
+							],
+							"reference": "B42",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "e4aed3a6-c91e-42d7-84b7-f7da4d636c8c",
+							"name": "Terrain Adaptation (Arctic)",
+							"physical": true,
+							"exotic": true,
+							"base_points": 5,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "264d2995-d66d-4c1f-b567-9d81e7373a1c",
+									"disabled": true,
+									"name": "Unstable on solid ground",
+									"reference": "B93",
+									"cost_type": "points",
+									"cost": -5,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "955c83cd-c57a-438b-ac74-6fb57597d034",
+									"disabled": true,
+									"name": "Active",
+									"reference": "P84",
+									"cost_type": "percentage",
+									"cost": 300,
+									"affects": "total"
+								}
+							],
+							"reference": "B93",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "b0804d2f-02bb-4ba0-8c41-a990aa924891",
+							"name": "Claws, Blunt (Hands)",
+							"physical": true,
+							"base_points": 3,
+							"weapons": [
+								{
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"base": "-1",
+										"modifier_per_die": 1
+									},
+									"usage": "Punch",
+									"reach": "C",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "DX"
+										},
+										{
+											"type": "Skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "Skill",
+											"name": "Boxing"
+										},
+										{
+											"type": "Skill",
+											"name": "Karate"
+										}
+									]
+								}
+							],
+							"reference": "B42",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "62709c5c-900b-4e32-b388-36f7284b4fe9",
+							"name": "Colorblindness",
+							"physical": true,
+							"base_points": -10,
+							"reference": "B127",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"amount": -1,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "contains",
+										"qualifier": "artist"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": -1,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "contains",
+										"qualifier": "chemistry"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": -1,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "contains",
+										"qualifier": "driving"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": -1,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "merchant"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": -1,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "contains",
+										"qualifier": "piloting"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": -1,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "contains",
+										"qualifier": "tracking"
+									}
+								}
+							],
+							"categories": [
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "f8da9e6d-501e-488f-a595-4c490cc64849",
+							"name": "Decreased Strength",
+							"physical": true,
+							"levels": "4",
+							"points_per_level": -10,
+							"reference": "B14",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": -1,
+									"per_level": true,
+									"attribute": "st"
+								}
+							],
+							"categories": [
+								"Attribute",
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "13ce5369-1ffa-4e3d-8b86-3ae1f831b33e",
+							"name": "Discriminatory Smell",
+							"physical": true,
+							"exotic": true,
+							"base_points": 15,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "eb780c55-6127-4899-b1ee-9485361daacd",
+									"disabled": true,
+									"name": "Emotion Sense",
+									"reference": "B49",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "0c83cecd-6b75-4261-b4bd-f8985e641aea",
+									"disabled": true,
+									"name": "Profiling",
+									"reference": "P47",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								}
+							],
+							"reference": "B49",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "49619d47-fae7-4a45-965c-1049eee57aa7",
+							"name": "Fur",
+							"physical": true,
+							"exotic": true,
+							"base_points": 1,
+							"reference": "B101",
+							"categories": [
+								"Perk"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "99805d97-5560-47ed-a961-3dc90506a78f",
+							"name": "Increased Dexterity",
+							"physical": true,
+							"levels": "2",
+							"points_per_level": 20,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "0127f0ae-d590-4f9e-aba1-ce27bfc3be6e",
+									"disabled": true,
+									"name": "No Fine Manipulators",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total"
+								}
+							],
+							"reference": "B15",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "dx"
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Attribute"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "c4d26d5c-bd63-4f32-bfaa-0d09ec6d3eba",
+							"name": "Reduced SM",
+							"physical": true,
+							"levels": "2",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": -1,
+									"per_level": true,
+									"attribute": "sm"
+								}
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "b5f305c6-977b-43e5-8124-4e6b27bc8773",
+							"name": "Restricted Diet (Carnivore)",
+							"physical": true,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "43dfcce6-f280-4654-b0cd-ee32759954cb",
+									"disabled": true,
+									"name": "Substitution",
+									"reference": "B151",
+									"cost_type": "percentage",
+									"cost": -50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "565b7af6-5280-4f76-b0d7-7a9b7f6fa146",
+									"name": "Very Common",
+									"reference": "B151",
+									"cost_type": "points",
+									"cost": -10,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "3f293e80-5275-40f4-9203-631ee18ce0b5",
+									"disabled": true,
+									"name": "Common",
+									"reference": "B151",
+									"cost_type": "points",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "c2845c78-0c33-4058-be79-a0d0ebfdc960",
+									"disabled": true,
+									"name": "Occasional",
+									"reference": "B151",
+									"cost_type": "points",
+									"cost": -30,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "d53e64a5-0398-4ccd-9a7c-181f9b4a8165",
+									"disabled": true,
+									"name": "Rare",
+									"reference": "B151",
+									"cost_type": "points",
+									"cost": -40,
+									"affects": "total"
+								}
+							],
+							"reference": "B151",
+							"categories": [
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "34f2e06e-3749-485d-b8a5-694a894ea9b2",
+							"name": "Tail",
+							"physical": true
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "0fdbb12f-9542-4fa7-ac6c-4845e6eab5eb",
+							"name": "Teeth, Sharp",
+							"physical": true,
+							"exotic": true,
+							"base_points": 1,
+							"weapons": [
+								{
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "thr",
+										"base": "-1"
+									},
+									"usage": "Bite",
+									"reach": "C",
+									"parry": "No",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "Skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "DX"
+										}
+									]
+								}
+							],
+							"reference": "B91",
+							"categories": [
+								"Perk"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "b2692ab3-f97e-417c-8022-505086a5fcad",
+							"name": "Burrower",
+							"physical": true,
+							"exotic": true,
+							"base_points": 1,
+							"reference": "PU2:10",
+							"categories": [
+								"Perk"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "146b043a-9e7e-482a-99e8-753efe14c96d",
+							"name": "Temperature Tolerance",
+							"physical": true,
+							"levels": "1",
+							"points_per_level": 1,
+							"reference": "B93",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "7b0248c6-38ff-4e9d-92d1-dff2b23483bf",
+							"name": "Born Biter",
+							"physical": true
+						}
+					]
+				}
+			]
+		}
+	]
+}

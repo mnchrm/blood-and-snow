@@ -1,0 +1,79 @@
+{
+	"type": "note_list",
+	"version": 1,
+	"id": "7110d00a-d5a9-41e0-afd2-20251fa5fc93",
+	"rows": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "35419854-00b1-408a-8536-78001a0f3939",
+			"text": "Agonize: The affected target suffers from the Agony condition\n\nLesser Control Body (5) + Affliction, 100% to Incapacitation: Agony (20) + Duration, 10 minutes (1) + Subject Weight, 150kg (3). 29 energy"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "39276119-cbb0-49ad-9802-8d488adc931a",
+			"text": "Beast Speech: Bestows Speak With Animals advantage\n\nLesser Strengthen Mind (3) + Altered Trait, Speak with Animals (25) + Duration, 10 minutes (1). 29 energy"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "692d663f-2c29-4ed5-8af1-fd5276e17e7d",
+			"text": "Beast-Soother: Calms down an animal, giving it +2/+4 to reaction rolls\n\nLesser Control Nature (5) + Bestows A Bonus, +2/4 to Reaction Roll (2/8) + Duration, 10 minutes (1) + Subject Weight, 300kg. 11/17 energy"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "08e88373-ea19-49eb-9289-800f11642960",
+			"text": "Beastmaster: Holds any beast motionless and\nquiet as long as the caster maintains\neye contact and concentration, attacking the beast will break the spell\n\nLesser Control Nature (5) + Subject Weight, 150kg. (3). 8 energy"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "8fa4824d-9b6c-4414-88c7-907af8931ed3",
+			"text": "Capturing Vines: Animates a cluster of vines to stretch out and grab anyone\nnearby\n\nLesser Control Matter(5); Area Of Effect: 3 yds radius (2); Bonus Or Penalty: Single: +0 [0] (Binding: Environmental; Persistent); Duration: 10 minutes [1]; Cost: 8"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "dddc44c2-5d3b-4caa-b5ef-a0aad7cd01ef",
+			"text": "Choke: This ritual causes the subject to choke for the designated duration.\n\nLesser Control Body (5) + Affliction, 100% to Choking (20) + Duration, 10 minutes (1) + Subject Weight, 300 lbs. (3). 29 energy (29×1)"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "fb386803-5576-46f2-b422-49acafac4ac0",
+			"text": "Poisonous Weapon: This ritual gives a weapon of the caster’s choosing (or an arrow quiver/sling stone pouch) weighing no more than 5kg a toxic follow-up.\n\nLesser Create Nature (6) + Bestows A Bonus, +2 to damage rolls (2) + Duration, 10 minutes (1) + Subject Weight, 10 lbs. (0). 9 energy"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "0502baa1-e2d7-48c0-9cb6-ab7e909725b4",
+			"text": "Haste: Increases the Basic Move and Dodge scores of the subject by 1/2/3\n\nLesser Strengthen Body[3]; Lesser Strengthen Body[3]; Altered Traits:[5/10/15] (+1/2/3 Basic Move); Altered Traits: [15/30/45] (Enhanced Dodge 3); Duration: 10\nminutes [1]; Cost: 27/47/67"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "e98b985c-28ca-4827-90fe-750a94e90d26",
+			"text": "Lure: This spell draws all manner of nonsapient wildlife into the specified area. this spell increases the local environment by a single step (from Typical to Good, from Good to Excellent, and so on). If the environment is already Excellent, the hunter may attempt 2d rolls per hour!\n\nLesser Control Nature (5) + Area of Effect, 1\nmile (36). 41 energy"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "152fe4fa-a3cd-4976-aa68-09e59feb3b0e",
+			"text": "Minor Healing: This ritual restores 1d HP to the subject\n\nLesser Restore Body (4) + Healing, 1d HP (0) + Subject Weight, 300 lbs. (3). 7 energy"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "cb70175d-404c-4472-a134-2aea77c93a2b",
+			"text": "Slow: Gives the subject -3 to Basic Move and -3 to Dodge\n\nLesser Destroy Body (5) + Lesser Destroy Body (5) + Altered Traits, -3 Basic Move (3) + Altered Traits, -3 Dodge (9) + Subject Weight, 150kg (3). 25 energy"
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "b1ce0d20-8922-4f15-b9c0-7768fea19268",
+			"text": "Tough Skin: Hardens the skin of a subject, giving it DR 2 (Tough Skin)\n\nLesser Strengthen Body (3), Altered Traits: Damage Resistance 2 (Tough Skin) (6), Subject Weight 150kg (3). 12 energy "
+		}
+	]
+}

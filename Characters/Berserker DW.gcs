@@ -1,0 +1,639 @@
+{
+	"type": "character",
+	"version": 1,
+	"id": "a7039fbb-4319-4832-97f8-32d5eb4b7ff5",
+	"settings": {
+		"version": 1,
+		"default_length_units": "m",
+		"default_weight_units": "kg",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_on_10": false,
+		"base_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": true,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"show_difficulty": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Feb 2, 2021, 3:31 PM",
+	"modified_date": "Feb 2, 2021, 3:38 PM",
+	"profile": {
+		"player_name": "Monochrome",
+		"name": "Berserker DW",
+		"age": "23",
+		"birthday": "March 17",
+		"eyes": "Brown",
+		"hair": "Redhead, Straight, Short",
+		"skin": "Pale",
+		"handedness": "Right",
+		"height": "1.609996 m",
+		"weight": "59 kg",
+		"gender": "Female",
+		"body_type": "humanoid",
+		"tech_level": "9"
+	},
+	"total_points": 100,
+	"ST": 10,
+	"DX": 10,
+	"IQ": 10,
+	"HT": 10,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "09897f93-5e18-4589-bbcd-19f8bada7b17",
+			"name": "Natural Attacks",
+			"physical": true,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"parry": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"reference": "B271"
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "8df1b468-bd96-4ad6-9c01-1b43fb25192f",
+			"based_on_id": "4a57a9fc-701f-428a-9826-95c5edb73227",
+			"based_on_hash": "Jg1kVw3sGn/2vjYC/55MgNexn2YnrqhmBPxVAVxNRFo",
+			"name": "Brawling",
+			"reference": "B182",
+			"difficulty": "DX/E",
+			"points": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "73856290-cb08-4da2-a5b5-c3d5ba93c682",
+			"based_on_id": "01410443-a79f-4ce7-ad69-10eedd5e68e2",
+			"based_on_hash": "bKZhErEd5Jw39michL4jPt3AGnVxhXsCpL+CsUQpS5c",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "Axe/Mace",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "807ad4f9-c0de-4931-85a6-3e089509a6b2",
+			"based_on_id": "35cc0957-1f22-4e48-9d19-d88b17bb78cd",
+			"based_on_hash": "gKaz21IMyDV1J69c1p14EtZ7S/Cf+um8L9yB+Il5hkI",
+			"name": "One-Handed Unbalanced",
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Two-Handed Unbalanced",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "bd3c78a5-909c-4785-bdfb-7f4104434766",
+			"based_on_id": "b1f8df8c-d5d6-4691-ab82-3f3b279f1979",
+			"based_on_hash": "FvXPCBdec4pNM+MDL0vaISLrIBRY+Y+yhewF7kP+5lc",
+			"name": "Climbing",
+			"reference": "B183",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Athletic",
+				"Criminal/Street",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "458074fc-4f76-4062-a952-c6108034b6eb",
+			"based_on_id": "32661b3b-0d4d-4b80-8f47-bf4fd84f8720",
+			"based_on_hash": "wr+pDlwYWsxPkdFIo7VJGFyzLto/Ahvr4Cz7JWp2JpM",
+			"name": "Hiking",
+			"reference": "B200",
+			"difficulty": "HT/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "HT",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "HT",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Athletic",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "9eea4539-360c-48c4-9505-9954beb09719",
+			"based_on_id": "24297045-0ea6-454e-a613-5211e5df465e",
+			"based_on_hash": "GTvJmYKICpcyK6FpgnVtMM893a0BkA2RABvRpp71nUI",
+			"name": "Jumping",
+			"reference": "B203",
+			"difficulty": "DX/E",
+			"points": 1,
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ab14abef-dd6a-4a31-a1fd-8b571675e2c8",
+			"based_on_id": "4783ce3d-a474-4e55-96c0-da1fa5160cb1",
+			"based_on_hash": "RuXKZqS98Vrr9oxu/MpHkYazbhnX3em6XK37wyK/BmI",
+			"name": "Knot-Tying",
+			"reference": "B203",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Climbing",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Seamanship",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Everyman"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "aff38ae9-e8c6-4e9a-ab13-8c31f514f92d",
+			"based_on_id": "47a6c36a-1c2a-4cc7-ad41-0bdf2fe25770",
+			"based_on_hash": "y/tihJjZPiwvysYxWBQqTLR/dlvzlYtj29fyoHW3hE8",
+			"name": "Lifting",
+			"reference": "B205",
+			"difficulty": "HT/A",
+			"points": 1,
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "94ffbf61-356f-456c-bb0f-4e5163f7c95f",
+			"based_on_id": "4a7b6078-e8f9-40a3-8804-d195919270e7",
+			"based_on_hash": "Z3gmbd02lKp/tWsK7XSYzpiCKWneJAjc/WpEuP6HfhQ",
+			"name": "Camouflage",
+			"reference": "B183",
+			"specialization": "Artic",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Survival",
+				"modifier": -2,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Military",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "5c843e33-a6a8-4db3-bdb6-a40ba6b3e8f6",
+			"based_on_id": "355a2199-f8ef-445a-8c55-bbcdb96f89a9",
+			"based_on_hash": "FIjVlFXDju8Pqe9debTIE47IMLIkH5GaHjmQv5znXjM",
+			"name": "Survival",
+			"reference": "B223",
+			"specialization": "Arctic",
+			"difficulty": "Per/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Swamplands",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "e5d61c7b-21c0-401f-89be-9490e3cc4689",
+			"based_on_id": "f0e3d8e9-f29f-4163-84d1-dfd80ab45eff",
+			"based_on_hash": "cHvqCYsNs88z244wmnQqf09Pf/mvv6hFxST9yJL7Kxk",
+			"name": "Weather Sense",
+			"reference": "B209",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b6af49e2-e143-4ab0-b100-16b3a98b3309",
+			"based_on_id": "1badbf5b-11af-49e3-a759-8e4ef29bb392",
+			"based_on_hash": "WbqgnQWDdyn+wzljz4hj1Mvyksg5tgqYWmtfY6EWkag",
+			"name": "Intimidation",
+			"reference": "B202",
+			"difficulty": "Will/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Acting",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "46b43be4-2ad6-415e-82f7-dd42085d0e90",
+			"based_on_id": "057e9d80-92f6-4a57-b868-2b2ee054862d",
+			"based_on_hash": "Sbod4ugX0OD5YuWj5D5k+zdS7u+nxJvYa7Dp38/Fjc0",
+			"name": "Gesture",
+			"reference": "B198",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f22797a8-0192-43ca-a9f4-2182a0dd4098",
+			"based_on_id": "fdc927ec-e04e-435c-9f00-820cab5c8f60",
+			"based_on_hash": "uPCotz+PMevaIuTOD8jeqrnDqs6Lnh+qUI6dRHsP14o",
+			"name": "Animal Handling",
+			"reference": "B175",
+			"specialization": "Dogs",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"notes": "Artic Civilization",
+			"categories": [
+				"Animal"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "79d42da2-38ac-4ac7-a04a-72272f8c0c32",
+			"based_on_id": "b18dc3ac-6697-4bdd-8a57-7c055ce7e515",
+			"based_on_hash": "9B/rv2KVaJED111N7GzTyqe+s8+hgwQ23wjeZtA3F0I",
+			"name": "Teamster",
+			"reference": "B225",
+			"specialization": "Dogs",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Animal Handling",
+					"specialization": "Dogs",
+					"modifier": -4
+				}
+			],
+			"notes": "Artic Civilization",
+			"categories": [
+				"Animal",
+				"Vehicle"
+			]
+		}
+	],
+	"print_settings": {
+		"printer": "Microsoft Print to PDF",
+		"units": "in",
+		"orientation": "portrait",
+		"width": 8.267716,
+		"height": 11.692913,
+		"top_margin": 0.5,
+		"left_margin": 0.5,
+		"bottom_margin": 0.499999,
+		"right_margin": 0.499999,
+		"ink_chromaticity": "monochrome",
+		"sides": "single",
+		"quality": "normal",
+		"resolution": "60000"
+	}
+}

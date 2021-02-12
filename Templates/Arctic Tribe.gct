@@ -1,0 +1,387 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "fdf3df64-4404-44a7-afe9-cbad835a0b59",
+	"skills": [
+		{
+			"type": "skill_container",
+			"version": 1,
+			"id": "ded8d020-bdd8-40f0-b986-3a99fcd47402",
+			"based_on_id": "c5db20b5-8a99-457f-85b1-f661b4ab9187",
+			"based_on_hash": "DDjMHqM3JweOCPGODYuxbpQAzpqN5kmRIOt+reNVCsQ",
+			"name": "Choose one",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "ecc0237d-3ace-48db-9a84-2b0e7465a2fe",
+					"based_on_id": "c0fc4330-d74d-4724-a85d-33bccf3bfc36",
+					"based_on_hash": "661bbkfcr2al6rUngRdjUcWJoEpUdPh2X5qCg5bc1zQ",
+					"name": "Armoury",
+					"reference": "B178",
+					"specialization": "Fletching",
+					"tech_level": "",
+					"difficulty": "IQ/A",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Crafting",
+						"Repair/Maintainance"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "8b82be8e-ca3d-4a0a-bafa-a9e1ccab17c5",
+					"based_on_id": "aa5dec37-a6b4-4eb1-b33a-30473a49dff5",
+					"based_on_hash": "YlLmHkzK/kXctAJIASs3LtHTURbthH3YoJMB/+JCwpE",
+					"name": "Armoury",
+					"reference": "B178",
+					"specialization": "Melee Weapons",
+					"tech_level": "",
+					"difficulty": "IQ/A",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Engineer",
+							"specialization": "Melee Weapons",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Military",
+						"Repair/Maintainance"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "ddf8c1f4-a2cc-42d8-8297-1dbd297a2f3c",
+					"based_on_id": "715ad0c6-e3c9-4734-941a-6ec537e17327",
+					"based_on_hash": "I9+J+sUnoPQGyNjmCjxZcZ7C7b3s/nGPI740sl2/A2g",
+					"name": "Naturalist",
+					"reference": "B211",
+					"difficulty": "IQ/H",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -6
+						},
+						{
+							"type": "Skill",
+							"name": "Biology",
+							"modifier": -3
+						}
+					],
+					"categories": [
+						"Animal",
+						"Natural Science",
+						"Outdoor/Exploration",
+						"Plant"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "b8bb4680-4266-4b41-bade-58e5ad83dfaf",
+					"based_on_id": "409d08b0-c9a9-4c25-817c-04a25eb5426d",
+					"based_on_hash": "UlrRS8oXCR97M5gR+K9Y51fcOBIgZSOs32hmdrfgHk4",
+					"name": "Butcher",
+					"reference": "B215",
+					"difficulty": "DX/A",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Cooking",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Housekeeping",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Craft",
+						"Knowledge"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "3bad75fe-4304-4312-a1cb-e9328e05b0cd",
+					"based_on_id": "945dcf0c-4eb7-410a-b6dd-e061f3eafd25",
+					"based_on_hash": "tU1CtewTmyFWMQMoErUZhX+mk1H8WNuq8Pnti+44egI",
+					"name": "Bone Carving",
+					"difficulty": "DX/A",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Armoury",
+							"modifier": -2
+						}
+					],
+					"categories": [
+						"Craft"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "03b13db2-8317-416c-8269-cfe45c9e3dfa",
+					"based_on_id": "80903806-8362-45bc-9214-b5cda38d9961",
+					"based_on_hash": "ZKnigfF+azpjk1t2Q8QhoxVLgeqm5jIDn73WYxu8ehc",
+					"name": "Leatherworking",
+					"reference": "B205",
+					"difficulty": "DX/E",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Craft"
+					]
+				}
+			]
+		},
+		{
+			"type": "skill_container",
+			"version": 1,
+			"id": "013842fa-2f8e-4fc4-8ada-a633f257d8cb",
+			"name": "Choose One",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "0f54d003-3281-43cc-8327-f2e5d414306b",
+					"based_on_id": "7b3048e6-60e3-4598-b975-bec9c2694d5a",
+					"based_on_hash": "Cj84Ffl1RTNvK1vq3vQFYXj5yf4lo38Epl9CYNIysWw",
+					"name": "Bow",
+					"reference": "B182",
+					"difficulty": "DX/A",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Combat/Weapon",
+						"Ranged Combat"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "104ef177-cb2e-4497-a8aa-95aec07a980d",
+					"based_on_id": "1a4b2ef1-8aaa-497d-8f0b-c197034ae15e",
+					"based_on_hash": "ny7X9TQfU/gLqfmLLKt0hzXDwkGKzK8kYW2pN4RP3VQ",
+					"name": "Sling",
+					"reference": "B221",
+					"difficulty": "DX/H",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -6
+						}
+					],
+					"categories": [
+						"Combat/Weapon",
+						"Ranged Combat"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "185ec3dc-7268-4e14-865a-8b42f40cf968",
+					"based_on_id": "b3d39e90-3823-4017-b0e9-b749185c3693",
+					"based_on_hash": "jaJhnbb3hldyb43Qr/jSFnqzmUA/uWmA2vpHQaY44k8",
+					"name": "Throwing",
+					"reference": "B226",
+					"difficulty": "DX/A",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Dropping",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Athletic",
+						"Combat/Weapon",
+						"Ranged Combat"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "ac00c535-6bcb-480d-b70c-472b516fae46",
+					"based_on_id": "3022001c-b4f0-4638-b90a-5b05eb9223c2",
+					"based_on_hash": "bLcrSlXc2LsTCtl0P0k/PIs3d7UIsUG1GjIqP8YYI1o",
+					"name": "Bolas",
+					"reference": "B181",
+					"difficulty": "DX/A",
+					"points": 1,
+					"categories": [
+						"Combat/Weapon",
+						"Ranged Combat"
+					]
+				}
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "0926891c-8828-49c2-af56-aeee9006485c",
+			"based_on_id": "cfa80bf7-5a85-4189-8633-eb5b15cbd5a2",
+			"based_on_hash": "9UINnU/jru90XL4DL7Lem7OtqV0pJvjpaH52L1wAJGw",
+			"name": "Packing",
+			"reference": "B212",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Animal Handling",
+					"specialization": "Equines",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Animal"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "dd0ccdf2-d1f9-4d7b-b0e1-3e94887d342c",
+			"based_on_id": "4a7b6078-e8f9-40a3-8804-d195919270e7",
+			"based_on_hash": "Z3gmbd02lKp/tWsK7XSYzpiCKWneJAjc/WpEuP6HfhQ",
+			"name": "Camouflage",
+			"reference": "B183",
+			"specialization": "Arctic",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Military",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "dd92ab15-69bf-4d1e-9e52-0943692b2308",
+			"based_on_id": "355a2199-f8ef-445a-8c55-bbcdb96f89a9",
+			"based_on_hash": "FIjVlFXDju8Pqe9debTIE47IMLIkH5GaHjmQv5znXjM",
+			"name": "Survival",
+			"reference": "B223",
+			"specialization": "Arctic",
+			"difficulty": "Per/A",
+			"points": 6,
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Swamplands",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration"
+			]
+		}
+	]
+}

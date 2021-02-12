@@ -1,0 +1,888 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "c2a41dfe-ee15-40ad-9a69-b23a9532b122",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "c8b82714-024c-4e43-a45d-129fe4ac3acc",
+			"container_type": "race",
+			"name": "Sea Elf",
+			"reference": "DF3:7",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "7d5ed8ac-3c6c-46ff-8863-bb5e87677879",
+					"name": "Telecommunication",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "700a9839-6dc3-4856-855b-2e158fa8fc51",
+							"disabled": true,
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fc5139b0-4e61-4778-802a-33a5464b95cb",
+							"disabled": true,
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ecacd174-2639-42b9-a3ca-18d01836defe",
+							"disabled": true,
+							"name": "Radio",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f5568805-3487-415d-9b63-b7bfecc4e536",
+							"name": "Telesend",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bdbe251a-80bc-4397-bd65-cfdbd1628187",
+							"disabled": true,
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c230757f-ede3-4329-8033-511555afce0b",
+							"disabled": true,
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "728ad858-2d93-446f-93f6-5446db274d80",
+							"disabled": true,
+							"name": "Universal",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b8229ca3-37cd-4d7d-a6e1-309278132f9c",
+							"disabled": true,
+							"name": "Video",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1d673e16-154d-4513-9541-913e810d76ad",
+							"name": "Racial",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0bda8b87-902a-4a5b-b310-b04c0622e680",
+							"disabled": true,
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "12dfacd6-7a12-4998-9f5e-9afb7d45baf8",
+							"disabled": true,
+							"name": "Send Only",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ee5d2335-7058-4408-b225-ec3a4310497f",
+							"disabled": true,
+							"name": "Vague",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3da78b40-b164-44b0-b377-5ce126310df8",
+							"disabled": true,
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2b131f92-d6a7-4155-a0a1-860fdc1a7e23",
+							"disabled": true,
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ac3636ad-7584-4dcc-a34d-61a6b521b142",
+							"disabled": true,
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "60924402-18c9-4368-99b8-3b6b3e6a832b",
+							"disabled": true,
+							"name": "Sonar",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5b5d9216-0086-4380-aff1-4e214baf3d27",
+							"disabled": true,
+							"name": "Burst",
+							"reference": "P81",
+							"cost_type": "percentage",
+							"cost": 30,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1b4f7475-2c60-4a09-ba7d-f852115f8930",
+							"disabled": true,
+							"name": "FTL",
+							"reference": "P82",
+							"cost_type": "percentage",
+							"cost": 120,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "767f15db-e6cf-4c3d-99e9-0bd862f599ad",
+							"disabled": true,
+							"name": "Secure",
+							"reference": "P82",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e54eb0cc-466b-4abe-b43e-e53070f1c201",
+							"disabled": true,
+							"name": "Sensie",
+							"reference": "P82",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cce73e51-168b-4e93-8044-33d09d5443db",
+							"disabled": true,
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						}
+					],
+					"reference": "B91",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "29ae6460-6b6d-4f57-8cdf-3e1f661deb35",
+					"name": "Amphibious",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"reference": "B40",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "584d2485-6016-4633-8d61-aa82bc546891",
+					"name": "Doesn't Breathe",
+					"physical": true,
+					"exotic": true,
+					"base_points": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "644ef485-37fb-43a3-b48a-9e4b469d1e06",
+							"name": "Gills",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a77372be-94b5-4e64-aba1-d8c5fec3f507",
+							"disabled": true,
+							"name": "Gills",
+							"reference": "B49",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Suffocates in air"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "550866cf-ea42-4683-8752-415146573dae",
+							"disabled": true,
+							"name": "Oxygen Absorption",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "296c76a7-f6e2-4fb3-866d-e28ec88762ff",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Can hold breath 25 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b93d0c2e-619f-4c64-a3f3-46f5eff478c7",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Can hold breath 50 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a6aac8d0-5b16-4ed2-b594-3e8e290343d3",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "Can hold breath 100 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "45a8f7e8-c63f-4f62-825e-aa4afc6672bd",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Can hold breath 200 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2aba30b9-0d6b-47d9-b6d1-6cd27a2056ec",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "Can hold breath 300 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2f241f3d-b369-4bce-85fc-2ba0b851304e",
+							"disabled": true,
+							"name": "Oxygen Combustion",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B49",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "254a6e29-56ab-4f36-bc7c-1b810d322e07",
+					"name": "Talent (Born Sailor)",
+					"mental": true,
+					"levels": "2",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d58311c2-7ce1-48ff-b3d4-612dbe0e13a4",
+							"disabled": true,
+							"name": "Reaction Bonus",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "Sailors"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3518ad4b-ff64-4243-8cf8-1189642a5381",
+							"name": "Alternate Benefit",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "Bonus to resist seasickness and reduce unfamiliarity penalties for system on an appropriate boat or ship"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eb93ea1b-5c50-44b9-a2f1-ab0a4a1fa960",
+							"disabled": true,
+							"name": "Alternative Cost",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "PU3:13",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Talent (Mariner)"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Boating"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Knot-Tying"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Sea"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Weather Sense"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Swimming"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Fishing"
+							}
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Talent"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "6c4a7b16-9951-4c22-9a17-9c8f9a9700a4",
+					"name": "Magery",
+					"mental": true,
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 5,
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c3f5073c-97dd-40f6-b838-80e72255d2cc",
+							"disabled": true,
+							"name": "Dance",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "levels_only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7cb90695-e032-4d8e-aca0-e86956ef2939",
+							"disabled": true,
+							"name": "Dark-Aspected",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "levels_only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2f504be4-77d3-4184-92fe-b0d0c9407101",
+							"disabled": true,
+							"name": "Day-Aspected",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "levels_only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e1b6bd96-9e17-44dd-b646-d05264c0c431",
+							"disabled": true,
+							"name": "Musical",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "levels_only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3081176b-2e5f-4538-b4de-1a3c271f58d6",
+							"disabled": true,
+							"name": "Night-Aspected",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "levels_only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5e12d368-8031-48ed-ad50-97adda1f34ea",
+							"disabled": true,
+							"name": "One College",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "levels_only",
+							"notes": "@College@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bc1788d7-c7fe-4df3-83a9-c52c6b4b68ef",
+							"disabled": true,
+							"name": "Solitary",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "levels_only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7e430bd2-f186-47f2-bf7f-a51a09b1c325",
+							"disabled": true,
+							"name": "Song",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B66",
+					"features": [
+						{
+							"type": "spell_bonus",
+							"amount": 1,
+							"per_level": true,
+							"match": "all_colleges"
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "thaumatology"
+							}
+						},
+						{
+							"type": "spell_bonus",
+							"amount": -1,
+							"per_level": true,
+							"match": "college_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Clerical"
+							}
+						},
+						{
+							"type": "spell_bonus",
+							"amount": -1,
+							"per_level": true,
+							"match": "college_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Druid"
+							}
+						},
+						{
+							"type": "spell_bonus",
+							"amount": -1,
+							"per_level": true,
+							"match": "college_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Unholy"
+							}
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "1639f7cb-1742-4438-b2b8-0866de332fb4",
+					"name": "Pressure Support",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "B77",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0031ece3-3179-452c-9d93-2a0581d9e35f",
+					"name": "Nictitating Membrane",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 1,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "fa5a119a-0c6e-47da-8447-85f860d2b073",
+					"name": "Naval Training",
+					"physical": true,
+					"base_points": 1,
+					"reference": "PU2:6",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "046ce92c-a4e6-4185-8ea8-21df8491304d",
+					"name": "Attentive",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B163",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f6bf8da4-89df-471d-9b6d-c1c5439e9e94",
+					"name": "Broad-Minded",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B163",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "01e2b874-fad4-4a7c-8ffe-dcf68afbd4dc",
+					"name": "Responsive",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a07d7d0c-18f4-40a7-87e9-307019129ae9",
+					"name": "Hidebound",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B138",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "6a97f2ab-0453-450d-b0d3-9988e67170c8",
+					"name": "Innumerate",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B140",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "contains",
+									"qualifier": "physics"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "contains",
+									"qualifier": "mathematics"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "market analysis"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "finance"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "contains",
+									"qualifier": "engineer"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "cryptography"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "astronomy"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "accounting"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "economics"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "computer programming"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "1a0b8d2f-ee67-4bbb-81e7-efe1e4f5563f",
+					"name": "Decreased Strength",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -10,
+					"reference": "B14",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "79075211-5c56-4fdd-bda0-d3483396e21f",
+					"name": "Cannot Speak (Mute)",
+					"physical": true,
+					"base_points": -25,
+					"reference": "B125",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	]
+}
